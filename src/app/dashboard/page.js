@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { collection, onSnapshot as onFirestoreSnapshot } from "firebase/firestore";
 import { ref, onValue } from "firebase/database";
 import { db, rtdb } from "@/lib/firebase";
@@ -15,6 +15,26 @@ export default function Dashboard() {
   const [dangerUsers, setDangerUsers] = useState([]);
   const [globalRiskLevel, setGlobalRiskLevel] = useState("SAFE");
   const [isDataLoading, setIsDataLoading] = useState(true);
+  
+  const firestoreUnsubRef = useRef(null);
+  const dangerTimerRef = useRef(null);
+  const ackRef = useRef(false);
+  const riskLevelRef = useRef("SAFE");
+
+  const handleAcknowledge = () => {
+    ackRef.current = true;
+    setGlobalRiskLevel("SAFE");
+    riskLevelRef.current = "SAFE";
+    setDangerUsers([]);
+    if (firestoreUnsubRef.current) {
+      firestoreUnsubRef.current();
+      firestoreUnsubRef.current = null;
+    }
+    if (dangerTimerRef.current) {
+      clearTimeout(dangerTimerRef.current);
+      dangerTimerRef.current = null;
+    }
+  };
 
   useEffect(() => {
     if (!loading && !user) {
@@ -27,54 +47,93 @@ export default function Dashboard() {
 
     const fetchStatusAndData = async () => {
       try {
-        // 1. Fetch Risk Level from RTDB (Polling mode)
-        const riskRef = ref(rtdb, 'devices/esp32-001/riskLevel');
-        onValue(riskRef, (snapshot) => {
-          const risk = snapshot.val();
-          const riskStr = risk?.toString().toUpperCase();
-          setGlobalRiskLevel(riskStr);
-
-          if (riskStr === "DANGER") {
-            // 2. If DANGER, fetch users filtered by deviceId
-            const unsubscribeFirestore = onFirestoreSnapshot(collection(db, "users"), (querySnapshot) => {
-              const users = [];
-              querySnapshot.forEach((doc) => {
-                const data = doc.data();
-                // Match "deviceId" in user doc with the device name "esp32-001"
-                if (data.deviceId === "esp32-001") {
-                  users.push({ id: doc.id, ...data });
-                }
-              });
-              setDangerUsers(users);
-              setIsDataLoading(false);
-            }, (error) => {
-              console.error("Error fetching users:", error);
-              setIsDataLoading(false);
-            });
-            
-            return () => unsubscribeFirestore();
-          } else {
-            setDangerUsers([]);
-            setIsDataLoading(false);
+        const gasRef = ref(rtdb, 'devices/esp32-001/gas/value');
+        onValue(gasRef, (snapshot) => {
+          const gasValue = snapshot.val() || 0;
+          const isCurrentlyDanger = gasValue >= 1000;
+          
+          if (!isCurrentlyDanger) {
+             ackRef.current = false;
           }
-        }, { onlyOnce: true }); // We use onlyOnce for polling
+          
+          const wasDanger = riskLevelRef.current.includes("DANGER");
+          let nextState = "SAFE";
+          
+          if (isCurrentlyDanger) {
+              if (dangerTimerRef.current) {
+                clearTimeout(dangerTimerRef.current);
+                dangerTimerRef.current = null;
+              }
+              
+              if (ackRef.current) {
+                setDangerUsers([]);
+                if (firestoreUnsubRef.current) {
+                  firestoreUnsubRef.current();
+                  firestoreUnsubRef.current = null;
+                }
+              } else {
+                nextState = `DANGER (${gasValue} ppm)`;
+                if (!wasDanger) {
+                  if (firestoreUnsubRef.current) firestoreUnsubRef.current();
+                  firestoreUnsubRef.current = onFirestoreSnapshot(collection(db, "users"), (querySnapshot) => {
+                    const users = [];
+                    querySnapshot.forEach((doc) => {
+                      const data = doc.data();
+                      if (data.deviceId === "esp32-001") users.push({ id: doc.id, ...data });
+                    });
+                    setDangerUsers(users);
+                    setIsDataLoading(false);
+                  }, (error) => {
+                    console.error("Error fetching users:", error);
+                    setIsDataLoading(false);
+                  });
+                }
+              }
+          } else if (wasDanger && !ackRef.current) {
+              nextState = `DANGER (${gasValue} ppm) - RECOVERING`;
+              if (!dangerTimerRef.current) {
+                dangerTimerRef.current = setTimeout(() => {
+                  setGlobalRiskLevel("SAFE");
+                  riskLevelRef.current = "SAFE";
+                  setDangerUsers([]);
+                  if (firestoreUnsubRef.current) {
+                    firestoreUnsubRef.current();
+                    firestoreUnsubRef.current = null;
+                  }
+                  dangerTimerRef.current = null;
+                }, 3 * 60 * 1000);
+              }
+          } else {
+              setDangerUsers([]);
+              if (firestoreUnsubRef.current) {
+                 firestoreUnsubRef.current();
+                 firestoreUnsubRef.current = null;
+              }
+              setIsDataLoading(false);
+              nextState = "SAFE";
+          }
+          
+          setGlobalRiskLevel(nextState);
+          riskLevelRef.current = nextState;
+        }, { onlyOnce: true });
       } catch (error) {
         console.error("Polling Error:", error);
       }
     };
 
-    // Initial fetch
     fetchStatusAndData();
-
-    // 30-second interval
     const interval = setInterval(fetchStatusAndData, 30000);
 
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      if (firestoreUnsubRef.current) firestoreUnsubRef.current();
+      if (dangerTimerRef.current) clearTimeout(dangerTimerRef.current);
+    };
   }, [user]);
 
   if (loading || !user) return null;
 
-  const showDangerContent = globalRiskLevel?.toString().toUpperCase() === "DANGER";
+  const showDangerContent = globalRiskLevel?.toString().toUpperCase().includes("DANGER");
 
   return (
     <div className="min-h-screen bg-white">
@@ -89,9 +148,19 @@ export default function Dashboard() {
               <h2 className="text-3xl font-bold text-gray-900 tracking-tight">AegisAir FireForce branch</h2>
               <p className="text-gray-500 mt-1">Intelligent responder dispatch & monitoring</p>
             </div>
-            <div className="flex items-center gap-2 px-3 py-1 bg-red-50 text-emergency-red rounded-full text-xs font-bold uppercase tracking-wider border border-emergency-red/10 animate-pulse">
-                <span className="w-1.5 h-1.5 bg-emergency-red rounded-full"></span>
-                Live Feed
+            <div className="flex flex-col items-end gap-2">
+              <div className="flex items-center gap-2 px-3 py-1 bg-red-50 text-emergency-red rounded-full text-xs font-bold uppercase tracking-wider border border-emergency-red/10 animate-pulse">
+                  <span className="w-1.5 h-1.5 bg-emergency-red rounded-full"></span>
+                  Live Feed
+              </div>
+              {showDangerContent && (
+                <button 
+                  onClick={handleAcknowledge}
+                  className="px-4 py-2 bg-system-blue text-white rounded-lg text-sm font-bold shadow-md hover:bg-blue-600 transition-colors"
+                >
+                  Acknowledge Incident
+                </button>
+              )}
             </div>
           </div>
 
@@ -136,11 +205,26 @@ export default function Dashboard() {
                     <div className="grid grid-cols-2 gap-4">
                       <div>
                         <label className="text-[10px] font-mono text-gray-400 uppercase tracking-widest block mb-0.5">Contact</label>
-                        <p className="text-sm font-semibold text-gray-700">{u.phone}</p>
+                        <a href={`tel:${u.phone}`} className="text-sm font-semibold text-system-blue hover:underline block truncate">{u.phone}</a>
                       </div>
                       <div>
-                        <label className="text-[10px] font-mono text-gray-400 uppercase tracking-widest block mb-0.5">City Node</label>
-                        <p className="text-sm font-semibold text-gray-700">{u.city}</p>
+                        <label className="text-[10px] font-mono text-gray-400 uppercase tracking-widest block mb-0.5">Address</label>
+                        <p className="text-sm font-semibold text-gray-700 block truncate">{u.address || u.city}</p>
+                      </div>
+                    </div>
+                    
+                    <div className="mt-4 pt-2">
+                      <label className="text-[10px] font-mono text-gray-400 uppercase tracking-widest block mb-2">Location Map</label>
+                      <div className="w-full h-32 bg-gray-100 rounded-lg overflow-hidden border border-gray-200">
+                        <iframe 
+                          width="100%" 
+                          height="100%" 
+                          frameBorder="0" 
+                          scrolling="no" 
+                          marginHeight="0" 
+                          marginWidth="0" 
+                          src={`https://maps.google.com/maps?q=${encodeURIComponent(u.address || u.city)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
+                        ></iframe>
                       </div>
                     </div>
                   </div>

@@ -1,0 +1,8938 @@
+{
+  "actuators": {
+    "buzzer": false,
+    "exhaust": false,
+    "gasValve": false,
+    "servoAngle": 90
+  },
+  "controls": {
+    "forceBuzzer": true,
+    "forceExhaust": false,
+    "forceValveClose": true,
+    "manualOverride": false
+  },
+  "gas": {
+    "rateOfRise": 0,
+    "spike": false,
+    "value": 0
+  },
+  "history": {
+    "8516": {
+      "gasValue": 0,
+      "humidity": 65,
+      "temperature": 34.5
+    },
+    "8525": {
+      "gasValue": 0,
+      "humidity": 65.4,
+      "temperature": 33.7
+    },
+    "8589": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 35.4
+    },
+    "8595": {
+      "gasValue": 0,
+      "humidity": 54.9,
+      "temperature": 32.2
+    },
+    "8631": {
+      "gasValue": 0,
+      "humidity": 66.2,
+      "temperature": 33.6
+    },
+    "8660": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 34
+    },
+    "8669": {
+      "gasValue": 0,
+      "humidity": 68.7,
+      "temperature": 32.8
+    },
+    "8730": {
+      "gasValue": 0,
+      "humidity": 59.7,
+      "temperature": 32.7
+    },
+    "8796": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 29.6
+    },
+    "8805": {
+      "gasValue": 0,
+      "humidity": 66.6,
+      "temperature": 33.1
+    },
+    "8821": {
+      "gasValue": 0,
+      "humidity": 66.5,
+      "temperature": 33.4
+    },
+    "8841": {
+      "gasValue": 0,
+      "humidity": 57.5,
+      "temperature": 32.4
+    },
+    "8871": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 36.1
+    },
+    "8895": {
+      "gasValue": 0,
+      "humidity": 69.5,
+      "temperature": 32.6
+    },
+    "8932": {
+      "gasValue": 0,
+      "humidity": 64.2,
+      "temperature": 33.8
+    },
+    "8933": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 35.1
+    },
+    "8946": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.3
+    },
+    "8958": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 35.6
+    },
+    "8961": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.8
+    },
+    "9039": {
+      "gasValue": 0,
+      "humidity": 59.7,
+      "temperature": 31.8
+    },
+    "9057": {
+      "gasValue": 162,
+      "humidity": 75.8,
+      "temperature": 31.9
+    },
+    "9080": {
+      "gasValue": 0,
+      "humidity": 63.3,
+      "temperature": 31.7
+    },
+    "9127": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 33.4
+    },
+    "9132": {
+      "gasValue": 0,
+      "humidity": 67.8,
+      "temperature": 32.5
+    },
+    "9139": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 35.8
+    },
+    "9185": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 34.7
+    },
+    "9196": {
+      "gasValue": 0,
+      "humidity": 68.6,
+      "temperature": 32.7
+    },
+    "9197": {
+      "gasValue": 0,
+      "humidity": 57.3,
+      "temperature": 35.5
+    },
+    "9232": {
+      "gasValue": 0,
+      "humidity": 49.1,
+      "temperature": 36.9
+    },
+    "9361": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 31.8
+    },
+    "9362": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 34.3
+    },
+    "9441": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 31.7
+    },
+    "9648": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 32.6
+    },
+    "9721": {
+      "gasValue": 0,
+      "humidity": 71.3,
+      "temperature": 32.7
+    },
+    "9802": {
+      "gasValue": 0,
+      "humidity": 62.9,
+      "temperature": 32.3
+    },
+    "9931": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.5
+    },
+    "10073": {
+      "gasValue": 0,
+      "humidity": 56.3,
+      "temperature": 31.9
+    },
+    "10120": {
+      "gasValue": 0,
+      "humidity": 68.7,
+      "temperature": 32.3
+    },
+    "10184": {
+      "gasValue": 0,
+      "humidity": 62.8,
+      "temperature": 27.8
+    },
+    "10494": {
+      "gasValue": 137,
+      "humidity": 58.4,
+      "temperature": 32
+    },
+    "10578": {
+      "gasValue": 0,
+      "humidity": 65.3,
+      "temperature": 34.6
+    },
+    "10762": {
+      "gasValue": 0,
+      "humidity": 67.4,
+      "temperature": 33.4
+    },
+    "10799": {
+      "gasValue": 0,
+      "humidity": 62.4,
+      "temperature": 28.6
+    },
+    "10800": {
+      "gasValue": 0,
+      "humidity": 54.2,
+      "temperature": 36.1
+    },
+    "11207": {
+      "gasValue": 0,
+      "humidity": 68.7,
+      "temperature": 32.9
+    },
+    "11659": {
+      "gasValue": 0,
+      "humidity": 56.2,
+      "temperature": 32
+    },
+    "11972": {
+      "gasValue": 0,
+      "humidity": 53.7,
+      "temperature": 36.2
+    },
+    "12919": {
+      "gasValue": 16,
+      "humidity": 56.1,
+      "temperature": 32.1
+    },
+    "13211": {
+      "gasValue": 0,
+      "humidity": 64.6,
+      "temperature": 34.6
+    },
+    "13289": {
+      "gasValue": 432,
+      "humidity": 65.4,
+      "temperature": 33.7
+    },
+    "13317": {
+      "gasValue": 0,
+      "humidity": 66.6,
+      "temperature": 33.1
+    },
+    "13338": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 34
+    },
+    "13365": {
+      "gasValue": 0,
+      "humidity": 58.5,
+      "temperature": 32.5
+    },
+    "13366": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 35.2
+    },
+    "13373": {
+      "gasValue": 0,
+      "humidity": 58.5,
+      "temperature": 30.7
+    },
+    "13387": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 32.2
+    },
+    "13392": {
+      "gasValue": 0,
+      "humidity": 66.4,
+      "temperature": 33.4
+    },
+    "13410": {
+      "gasValue": 0,
+      "humidity": 66.5,
+      "temperature": 33.7
+    },
+    "13414": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 36.1
+    },
+    "13420": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 29.5
+    },
+    "13424": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 33.8
+    },
+    "13470": {
+      "gasValue": 0,
+      "humidity": 68.9,
+      "temperature": 32.7
+    },
+    "13471": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.8
+    },
+    "13483": {
+      "gasValue": 0,
+      "humidity": 57.4,
+      "temperature": 35.4
+    },
+    "13489": {
+      "gasValue": 0,
+      "humidity": 68.2,
+      "temperature": 32.8
+    },
+    "13536": {
+      "gasValue": 0,
+      "humidity": 68.2,
+      "temperature": 32.7
+    },
+    "13554": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 35.5
+    },
+    "13606": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.3
+    },
+    "13639": {
+      "gasValue": 0,
+      "humidity": 67.9,
+      "temperature": 32.5
+    },
+    "13640": {
+      "gasValue": 0,
+      "humidity": 59.6,
+      "temperature": 32.7
+    },
+    "13694": {
+      "gasValue": 0,
+      "humidity": 54.9,
+      "temperature": 35.8
+    },
+    "13697": {
+      "gasValue": 0,
+      "humidity": 68.6,
+      "temperature": 32.3
+    },
+    "13719": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 31.7
+    },
+    "13806": {
+      "gasValue": 113,
+      "humidity": 76.1,
+      "temperature": 31.9
+    },
+    "13811": {
+      "gasValue": 0,
+      "humidity": 59.5,
+      "temperature": 31.8
+    },
+    "13833": {
+      "gasValue": 0,
+      "humidity": 49.1,
+      "temperature": 36.9
+    },
+    "13834": {
+      "gasValue": 0,
+      "humidity": 53.7,
+      "temperature": 36.3
+    },
+    "13922": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 35.7
+    },
+    "13938": {
+      "gasValue": 0,
+      "humidity": 64.8,
+      "temperature": 34.7
+    },
+    "13966": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 33.4
+    },
+    "13982": {
+      "gasValue": 0,
+      "humidity": 62.8,
+      "temperature": 32.3
+    },
+    "13993": {
+      "gasValue": 0,
+      "humidity": 67.5,
+      "temperature": 32.6
+    },
+    "14015": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 31.8
+    },
+    "14038": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.4
+    },
+    "14354": {
+      "gasValue": 0,
+      "humidity": 63.1,
+      "temperature": 27.9
+    },
+    "14414": {
+      "gasValue": 0,
+      "humidity": 59.5,
+      "temperature": 31.7
+    },
+    "14462": {
+      "gasValue": 0,
+      "humidity": 70.7,
+      "temperature": 32.7
+    },
+    "14469": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 33.6
+    },
+    "14479": {
+      "gasValue": 0,
+      "humidity": 56.4,
+      "temperature": 31.9
+    },
+    "14914": {
+      "gasValue": 125,
+      "humidity": 58.4,
+      "temperature": 32
+    },
+    "15280": {
+      "gasValue": 0,
+      "humidity": 65,
+      "temperature": 34.6
+    },
+    "15323": {
+      "gasValue": 0,
+      "humidity": 62.1,
+      "temperature": 28.6
+    },
+    "15414": {
+      "gasValue": 0,
+      "humidity": 54.2,
+      "temperature": 36.2
+    },
+    "15427": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.4
+    },
+    "15967": {
+      "gasValue": 0,
+      "humidity": 68.5,
+      "temperature": 32.8
+    },
+    "16178": {
+      "gasValue": 0,
+      "humidity": 55.9,
+      "temperature": 32
+    },
+    "16203": {
+      "gasValue": 0,
+      "humidity": 53.4,
+      "temperature": 36.2
+    },
+    "16712": {
+      "gasValue": 0,
+      "humidity": 51.7,
+      "temperature": 32.7
+    },
+    "17740": {
+      "gasValue": 0,
+      "humidity": 56,
+      "temperature": 32.1
+    },
+    "18282": {
+      "gasValue": 0,
+      "humidity": 64.3,
+      "temperature": 34.5
+    },
+    "18363": {
+      "gasValue": 0,
+      "humidity": 58.2,
+      "temperature": 30.6
+    },
+    "18376": {
+      "gasValue": 0,
+      "humidity": 65.4,
+      "temperature": 34
+    },
+    "18391": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.1
+    },
+    "18408": {
+      "gasValue": 18,
+      "humidity": 65.6,
+      "temperature": 33.7
+    },
+    "18415": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 36.1
+    },
+    "18457": {
+      "gasValue": 59,
+      "humidity": 66.4,
+      "temperature": 33.5
+    },
+    "18493": {
+      "gasValue": 1079,
+      "humidity": 66.1,
+      "temperature": 33.7
+    },
+    "18540": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 29.5
+    },
+    "18548": {
+      "gasValue": 0,
+      "humidity": 64.2,
+      "temperature": 33.8
+    },
+    "18562": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 31.8
+    },
+    "18565": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 35.8
+    },
+    "18579": {
+      "gasValue": 0,
+      "humidity": 57,
+      "temperature": 35.5
+    },
+    "18590": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 36.4
+    },
+    "18603": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 35.1
+    },
+    "18613": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.8
+    },
+    "18622": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.3
+    },
+    "18798": {
+      "gasValue": 0,
+      "humidity": 68,
+      "temperature": 32.7
+    },
+    "18801": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 33.4
+    },
+    "18886": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 35.7
+    },
+    "18916": {
+      "gasValue": 102,
+      "humidity": 59.4,
+      "temperature": 31.9
+    },
+    "18935": {
+      "gasValue": 0,
+      "humidity": 68.3,
+      "temperature": 32.3
+    },
+    "18938": {
+      "gasValue": 0,
+      "humidity": 67.5,
+      "temperature": 32.6
+    },
+    "18954": {
+      "gasValue": 0,
+      "humidity": 59.6,
+      "temperature": 32.7
+    },
+    "18978": {
+      "gasValue": 63,
+      "humidity": 75.8,
+      "temperature": 31.9
+    },
+    "18991": {
+      "gasValue": 0,
+      "humidity": 49.3,
+      "temperature": 36.9
+    },
+    "19001": {
+      "gasValue": 0,
+      "humidity": 58.1,
+      "temperature": 31.8
+    },
+    "19044": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 31.8
+    },
+    "19061": {
+      "gasValue": 0,
+      "humidity": 58,
+      "temperature": 32.5
+    },
+    "19069": {
+      "gasValue": 0,
+      "humidity": 64.6,
+      "temperature": 34.7
+    },
+    "19197": {
+      "gasValue": 0,
+      "humidity": 63,
+      "temperature": 32.4
+    },
+    "19219": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.4
+    },
+    "19467": {
+      "gasValue": 0,
+      "humidity": 63.2,
+      "temperature": 27.9
+    },
+    "19470": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 33.5
+    },
+    "19595": {
+      "gasValue": 0,
+      "humidity": 70.4,
+      "temperature": 32.8
+    },
+    "19623": {
+      "gasValue": 400,
+      "humidity": 58.4,
+      "temperature": 32
+    },
+    "19632": {
+      "gasValue": 0,
+      "humidity": 51.9,
+      "temperature": 32.7
+    },
+    "19787": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 32
+    },
+    "20310": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 28.7
+    },
+    "20370": {
+      "gasValue": 0,
+      "humidity": 64.6,
+      "temperature": 34.6
+    },
+    "20416": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.4
+    },
+    "20623": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 36.3
+    },
+    "20737": {
+      "gasValue": 0,
+      "humidity": 54.2,
+      "temperature": 36.2
+    },
+    "21075": {
+      "gasValue": 0,
+      "humidity": 68.5,
+      "temperature": 32.9
+    },
+    "21097": {
+      "gasValue": 0,
+      "humidity": 56.6,
+      "temperature": 32
+    },
+    "22557": {
+      "gasValue": 0,
+      "humidity": 55.8,
+      "temperature": 32.1
+    },
+    "23378": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.5
+    },
+    "23390": {
+      "gasValue": 0,
+      "humidity": 66.2,
+      "temperature": 33.5
+    },
+    "23416": {
+      "gasValue": 0,
+      "humidity": 65.3,
+      "temperature": 34
+    },
+    "23441": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 33.7
+    },
+    "23444": {
+      "gasValue": 0,
+      "humidity": 0,
+      "temperature": 0
+    },
+    "23489": {
+      "gasValue": 0,
+      "humidity": 65.6,
+      "temperature": 33.8
+    },
+    "23510": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 35.5
+    },
+    "23522": {
+      "gasValue": 238,
+      "humidity": 58.2,
+      "temperature": 30.7
+    },
+    "23545": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 33.8
+    },
+    "23582": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 29.5
+    },
+    "23584": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 33.8
+    },
+    "23613": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 35.1
+    },
+    "23644": {
+      "gasValue": 0,
+      "humidity": 67.9,
+      "temperature": 32.7
+    },
+    "23670": {
+      "gasValue": 0,
+      "humidity": 54.9,
+      "temperature": 35.9
+    },
+    "23672": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 32.3
+    },
+    "23683": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.1
+    },
+    "23721": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 31.8
+    },
+    "23747": {
+      "gasValue": 0,
+      "humidity": 66.2,
+      "temperature": 33.3
+    },
+    "23805": {
+      "gasValue": 0,
+      "humidity": 59.4,
+      "temperature": 32.7
+    },
+    "23932": {
+      "gasValue": 0,
+      "humidity": 68.5,
+      "temperature": 32.3
+    },
+    "23944": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 35.7
+    },
+    "24000": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 32.6
+    },
+    "24036": {
+      "gasValue": 549,
+      "humidity": 59.3,
+      "temperature": 31.8
+    },
+    "24072": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 31.8
+    },
+    "24138": {
+      "gasValue": 48,
+      "humidity": 75.8,
+      "temperature": 31.9
+    },
+    "24153": {
+      "gasValue": 0,
+      "humidity": 49.1,
+      "temperature": 36.9
+    },
+    "24325": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 33.5
+    },
+    "24328": {
+      "gasValue": 141,
+      "humidity": 64.3,
+      "temperature": 34.7
+    },
+    "24329": {
+      "gasValue": 0,
+      "humidity": 63.2,
+      "temperature": 32.4
+    },
+    "24346": {
+      "gasValue": 0,
+      "humidity": 56.9,
+      "temperature": 31.8
+    },
+    "24381": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 36.1
+    },
+    "24409": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.4
+    },
+    "24493": {
+      "gasValue": 389,
+      "humidity": 58.4,
+      "temperature": 32
+    },
+    "24720": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 28
+    },
+    "24722": {
+      "gasValue": 0,
+      "humidity": 70.8,
+      "temperature": 32.8
+    },
+    "25076": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 32
+    },
+    "25606": {
+      "gasValue": 0,
+      "humidity": 64.3,
+      "temperature": 34.6
+    },
+    "25631": {
+      "gasValue": 0,
+      "humidity": 67.9,
+      "temperature": 33.5
+    },
+    "25635": {
+      "gasValue": 3450,
+      "humidity": 62.4,
+      "temperature": 28.7
+    },
+    "25696": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 36.2
+    },
+    "25772": {
+      "gasValue": 122,
+      "humidity": 53.7,
+      "temperature": 36.3
+    },
+    "26097": {
+      "gasValue": 0,
+      "humidity": 56.2,
+      "temperature": 32
+    },
+    "26186": {
+      "gasValue": 0,
+      "humidity": 69.3,
+      "temperature": 32.9
+    },
+    "28436": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.5
+    },
+    "28468": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 34
+    },
+    "28575": {
+      "gasValue": 0,
+      "humidity": 57.7,
+      "temperature": 32.5
+    },
+    "28581": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 33.7
+    },
+    "28620": {
+      "gasValue": 82,
+      "humidity": 54.7,
+      "temperature": 36
+    },
+    "28643": {
+      "gasValue": 234,
+      "humidity": 58.2,
+      "temperature": 30.7
+    },
+    "28647": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 32.2
+    },
+    "28650": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 31.7
+    },
+    "28658": {
+      "gasValue": 0,
+      "humidity": 60.9,
+      "temperature": 29.5
+    },
+    "28669": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 35.2
+    },
+    "28687": {
+      "gasValue": 0,
+      "humidity": 66.1,
+      "temperature": 33.3
+    },
+    "28695": {
+      "gasValue": 0,
+      "humidity": 64.3,
+      "temperature": 33.9
+    },
+    "28709": {
+      "gasValue": 0,
+      "humidity": 65.6,
+      "temperature": 33.8
+    },
+    "28829": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 33.7
+    },
+    "28954": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.1
+    },
+    "28958": {
+      "gasValue": 866,
+      "humidity": 61.1,
+      "temperature": 31.9
+    },
+    "29008": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.4
+    },
+    "29087": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.8
+    },
+    "29132": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 31.8
+    },
+    "29250": {
+      "gasValue": 0,
+      "humidity": 67.7,
+      "temperature": 32.6
+    },
+    "29273": {
+      "gasValue": 0,
+      "humidity": 49,
+      "temperature": 37
+    },
+    "29299": {
+      "gasValue": 38,
+      "humidity": 75.7,
+      "temperature": 31.9
+    },
+    "29413": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 35.7
+    },
+    "29477": {
+      "gasValue": 0,
+      "humidity": 62.8,
+      "temperature": 28
+    },
+    "29485": {
+      "gasValue": 0,
+      "humidity": 56.6,
+      "temperature": 31.8
+    },
+    "29524": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.4
+    },
+    "29839": {
+      "gasValue": 2150,
+      "humidity": 51.6,
+      "temperature": 32.7
+    },
+    "29859": {
+      "gasValue": 0,
+      "humidity": 69.8,
+      "temperature": 32.8
+    },
+    "30148": {
+      "gasValue": 0,
+      "humidity": 57.7,
+      "temperature": 32
+    },
+    "30294": {
+      "gasValue": 725,
+      "humidity": 60.7,
+      "temperature": 32
+    },
+    "30516": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 34.6
+    },
+    "30600": {
+      "gasValue": 0,
+      "humidity": 67.8,
+      "temperature": 33.5
+    },
+    "30774": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 36.1
+    },
+    "30837": {
+      "gasValue": 194,
+      "humidity": 62,
+      "temperature": 28.8
+    },
+    "31138": {
+      "gasValue": 2951,
+      "humidity": 57.4,
+      "temperature": 32
+    },
+    "31288": {
+      "gasValue": 0,
+      "humidity": 69.5,
+      "temperature": 32.9
+    },
+    "31293": {
+      "gasValue": 258,
+      "humidity": 53.8,
+      "temperature": 36.3
+    },
+    "33515": {
+      "gasValue": 554,
+      "humidity": 63.5,
+      "temperature": 34.6
+    },
+    "33542": {
+      "gasValue": 683,
+      "humidity": 68.3,
+      "temperature": 34
+    },
+    "33557": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 32.2
+    },
+    "33643": {
+      "gasValue": 0,
+      "humidity": 58.2,
+      "temperature": 30.8
+    },
+    "33701": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.4
+    },
+    "33718": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.2
+    },
+    "33732": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 33.8
+    },
+    "33740": {
+      "gasValue": 0,
+      "humidity": 59.4,
+      "temperature": 32.5
+    },
+    "33769": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 35.8
+    },
+    "33810": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 33.9
+    },
+    "33839": {
+      "gasValue": 0,
+      "humidity": 65.1,
+      "temperature": 33.7
+    },
+    "33840": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 31.7
+    },
+    "33856": {
+      "gasValue": 0,
+      "humidity": 66.1,
+      "temperature": 33.3
+    },
+    "33883": {
+      "gasValue": 224,
+      "humidity": 65.8,
+      "temperature": 33.8
+    },
+    "33885": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 35.5
+    },
+    "33945": {
+      "gasValue": 188,
+      "humidity": 57.6,
+      "temperature": 32.2
+    },
+    "33963": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 35.2
+    },
+    "34087": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 35.7
+    },
+    "34135": {
+      "gasValue": 0,
+      "humidity": 59.7,
+      "temperature": 32.8
+    },
+    "34157": {
+      "gasValue": 0,
+      "humidity": 68.4,
+      "temperature": 32.3
+    },
+    "34210": {
+      "gasValue": 848,
+      "humidity": 64.1,
+      "temperature": 31.9
+    },
+    "34224": {
+      "gasValue": 0,
+      "humidity": 67.7,
+      "temperature": 32.6
+    },
+    "34271": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 31.8
+    },
+    "34285": {
+      "gasValue": 0,
+      "humidity": 75.6,
+      "temperature": 31.9
+    },
+    "34319": {
+      "gasValue": 0,
+      "humidity": 66.3,
+      "temperature": 33.5
+    },
+    "34377": {
+      "gasValue": 0,
+      "humidity": 63.4,
+      "temperature": 34.7
+    },
+    "34396": {
+      "gasValue": 0,
+      "humidity": 48.8,
+      "temperature": 37
+    },
+    "34446": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 32.4
+    },
+    "34511": {
+      "gasValue": 0,
+      "humidity": 62.5,
+      "temperature": 28
+    },
+    "34632": {
+      "gasValue": 0,
+      "humidity": 63.1,
+      "temperature": 34.4
+    },
+    "34849": {
+      "gasValue": 0,
+      "humidity": 56.7,
+      "temperature": 31.8
+    },
+    "34962": {
+      "gasValue": 0,
+      "humidity": 68.8,
+      "temperature": 32.8
+    },
+    "34992": {
+      "gasValue": 0,
+      "humidity": 57.4,
+      "temperature": 32
+    },
+    "35478": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 28.8
+    },
+    "35585": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.6
+    },
+    "35663": {
+      "gasValue": 0,
+      "humidity": 67.4,
+      "temperature": 33.5
+    },
+    "35775": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 36.1
+    },
+    "36089": {
+      "gasValue": 752,
+      "humidity": 57.9,
+      "temperature": 32
+    },
+    "36376": {
+      "gasValue": 0,
+      "humidity": 68.8,
+      "temperature": 33
+    },
+    "36899": {
+      "gasValue": 853,
+      "humidity": 62.5,
+      "temperature": 32
+    },
+    "37259": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.3
+    },
+    "37626": {
+      "gasValue": 0,
+      "humidity": 51.6,
+      "temperature": 32.7
+    },
+    "37637": {
+      "gasValue": 96,
+      "humidity": 57.9,
+      "temperature": 32.2
+    },
+    "38578": {
+      "gasValue": 1200,
+      "humidity": 69.7,
+      "temperature": 34
+    },
+    "38660": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 29.4
+    },
+    "38723": {
+      "gasValue": 0,
+      "humidity": 58,
+      "temperature": 32.5
+    },
+    "38761": {
+      "gasValue": 0,
+      "humidity": 57.5,
+      "temperature": 30.8
+    },
+    "38768": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 33.8
+    },
+    "38775": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 32.2
+    },
+    "38853": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 33.9
+    },
+    "38887": {
+      "gasValue": 0,
+      "humidity": 57.4,
+      "temperature": 35.2
+    },
+    "38890": {
+      "gasValue": 273,
+      "humidity": 64.9,
+      "temperature": 33.7
+    },
+    "38929": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 35.8
+    },
+    "38962": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 31.7
+    },
+    "38993": {
+      "gasValue": 716,
+      "humidity": 66.7,
+      "temperature": 33.8
+    },
+    "39118": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 35.7
+    },
+    "39137": {
+      "gasValue": 0,
+      "humidity": 66.5,
+      "temperature": 33.3
+    },
+    "39168": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.1
+    },
+    "39282": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 31.8
+    },
+    "39392": {
+      "gasValue": 0,
+      "humidity": 66.1,
+      "temperature": 33.4
+    },
+    "39402": {
+      "gasValue": 0,
+      "humidity": 68.5,
+      "temperature": 32.3
+    },
+    "39496": {
+      "gasValue": 0,
+      "humidity": 63.2,
+      "temperature": 34.7
+    },
+    "39498": {
+      "gasValue": 0,
+      "humidity": 75.7,
+      "temperature": 31.9
+    },
+    "39502": {
+      "gasValue": 656,
+      "humidity": 63.3,
+      "temperature": 32.1
+    },
+    "39514": {
+      "gasValue": 0,
+      "humidity": 59.6,
+      "temperature": 32.8
+    },
+    "39519": {
+      "gasValue": 0,
+      "humidity": 48.8,
+      "temperature": 37
+    },
+    "39542": {
+      "gasValue": 0,
+      "humidity": 62.2,
+      "temperature": 28.1
+    },
+    "39661": {
+      "gasValue": 0,
+      "humidity": 63,
+      "temperature": 34.4
+    },
+    "39721": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 32.4
+    },
+    "39729": {
+      "gasValue": 0,
+      "humidity": 67.5,
+      "temperature": 32.6
+    },
+    "39909": {
+      "gasValue": 0,
+      "humidity": 57,
+      "temperature": 32
+    },
+    "39925": {
+      "gasValue": 0,
+      "humidity": 56.3,
+      "temperature": 31.8
+    },
+    "39958": {
+      "gasValue": 838,
+      "humidity": 62.9,
+      "temperature": 31.9
+    },
+    "40463": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 28.9
+    },
+    "40579": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.6
+    },
+    "40818": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.5
+    },
+    "40977": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 36.1
+    },
+    "41205": {
+      "gasValue": 0,
+      "humidity": 57.5,
+      "temperature": 32
+    },
+    "41455": {
+      "gasValue": 0,
+      "humidity": 68.4,
+      "temperature": 33
+    },
+    "41764": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.4
+    },
+    "42160": {
+      "gasValue": 0,
+      "humidity": 51.9,
+      "temperature": 32.8
+    },
+    "43160": {
+      "gasValue": 47,
+      "humidity": 59.6,
+      "temperature": 32.2
+    },
+    "43611": {
+      "gasValue": 770,
+      "humidity": 70.2,
+      "temperature": 34
+    },
+    "43726": {
+      "gasValue": 0,
+      "humidity": 57.7,
+      "temperature": 32.5
+    },
+    "43743": {
+      "gasValue": 0,
+      "humidity": 64.8,
+      "temperature": 33.7
+    },
+    "43836": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 33.8
+    },
+    "43940": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.4
+    },
+    "43950": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 33.9
+    },
+    "43962": {
+      "gasValue": 0,
+      "humidity": 57.4,
+      "temperature": 30.9
+    },
+    "43978": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 35.2
+    },
+    "44044": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.2
+    },
+    "44065": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 35.8
+    },
+    "44084": {
+      "gasValue": 915,
+      "humidity": 67.2,
+      "temperature": 33.8
+    },
+    "44161": {
+      "gasValue": 0,
+      "humidity": 69,
+      "temperature": 32.4
+    },
+    "44331": {
+      "gasValue": 0,
+      "humidity": 63.1,
+      "temperature": 31.8
+    },
+    "44437": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 32.3
+    },
+    "44487": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 31.8
+    },
+    "44498": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 32.6
+    },
+    "44518": {
+      "gasValue": 0,
+      "humidity": 62.2,
+      "temperature": 28.1
+    },
+    "44521": {
+      "gasValue": 437,
+      "humidity": 66.4,
+      "temperature": 33.4
+    },
+    "44592": {
+      "gasValue": 0,
+      "humidity": 59.5,
+      "temperature": 32.8
+    },
+    "44604": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.8
+    },
+    "44651": {
+      "gasValue": 0
+    },
+    "44658": {
+      "gasValue": 0,
+      "humidity": 75.6,
+      "temperature": 31.9
+    },
+    "44713": {
+      "gasValue": 0,
+      "humidity": 49.1,
+      "temperature": 37
+    },
+    "44796": {
+      "gasValue": 0,
+      "humidity": 62.8,
+      "temperature": 34.4
+    },
+    "44845": {
+      "gasValue": 0,
+      "humidity": 55.9,
+      "temperature": 31.8
+    },
+    "44853": {
+      "gasValue": 350,
+      "humidity": 63.2,
+      "temperature": 32.1
+    },
+    "44937": {
+      "gasValue": 0,
+      "humidity": 56.8,
+      "temperature": 32.1
+    },
+    "45005": {
+      "gasValue": 0,
+      "humidity": 62.9,
+      "temperature": 32.4
+    },
+    "45219": {
+      "gasValue": 863,
+      "humidity": 63.2,
+      "temperature": 32
+    },
+    "45493": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 28.9
+    },
+    "45646": {
+      "gasValue": 857,
+      "humidity": 64.4,
+      "temperature": 34.6
+    },
+    "45975": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 36.2
+    },
+    "46039": {
+      "gasValue": 0,
+      "humidity": 52,
+      "temperature": 32.8
+    },
+    "46172": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.5
+    },
+    "46284": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.4
+    },
+    "46290": {
+      "gasValue": 0,
+      "humidity": 56.9,
+      "temperature": 32
+    },
+    "46521": {
+      "gasValue": 0,
+      "humidity": 68.2,
+      "temperature": 33
+    },
+    "48383": {
+      "gasValue": 0,
+      "humidity": 58.5,
+      "temperature": 32.2
+    },
+    "48881": {
+      "gasValue": 320,
+      "humidity": 70.2,
+      "temperature": 34.1
+    },
+    "48884": {
+      "gasValue": 0,
+      "humidity": 64.7,
+      "temperature": 33.7
+    },
+    "48942": {
+      "gasValue": 0,
+      "humidity": 57.5,
+      "temperature": 32.5
+    },
+    "48983": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.8
+    },
+    "49004": {
+      "gasValue": 0,
+      "humidity": 57.1,
+      "temperature": 30.9
+    },
+    "49027": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.1
+    },
+    "49060": {
+      "gasValue": 11,
+      "humidity": 61.4,
+      "temperature": 29.4
+    },
+    "49079": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 33.9
+    },
+    "49110": {
+      "gasValue": 251,
+      "humidity": 67.6,
+      "temperature": 33.8
+    },
+    "49183": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 32.3
+    },
+    "49205": {
+      "gasValue": 0,
+      "humidity": 58.1,
+      "temperature": 35.2
+    },
+    "49299": {
+      "gasValue": 0,
+      "humidity": 69.4,
+      "temperature": 32.4
+    },
+    "49336": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 35.9
+    },
+    "49471": {
+      "gasValue": 0,
+      "humidity": 59.4,
+      "temperature": 32.8
+    },
+    "49501": {
+      "gasValue": 128,
+      "humidity": 67.1,
+      "temperature": 33.5
+    },
+    "49517": {
+      "gasValue": 0,
+      "humidity": 55.5,
+      "temperature": 35.7
+    },
+    "49521": {
+      "gasValue": 75,
+      "humidity": 63.2,
+      "temperature": 31.8
+    },
+    "49522": {
+      "gasValue": 0,
+      "humidity": 67.5,
+      "temperature": 32.6
+    },
+    "49593": {
+      "gasValue": 0,
+      "humidity": 49.1,
+      "temperature": 37
+    },
+    "49649": {
+      "gasValue": 0,
+      "humidity": 75.5,
+      "temperature": 31.9
+    },
+    "49754": {
+      "gasValue": 775,
+      "humidity": 63.3,
+      "temperature": 32
+    },
+    "49783": {
+      "gasValue": 0,
+      "humidity": 62.1,
+      "temperature": 28.1
+    },
+    "49803": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 31.9
+    },
+    "49816": {
+      "gasValue": 269,
+      "humidity": 62.1,
+      "temperature": 32.1
+    },
+    "49882": {
+      "gasValue": 0,
+      "humidity": 62.6,
+      "temperature": 34.4
+    },
+    "49903": {
+      "gasValue": 0,
+      "humidity": 63,
+      "temperature": 32.4
+    },
+    "50041": {
+      "gasValue": 0,
+      "humidity": 58.8,
+      "temperature": 32
+    },
+    "50595": {
+      "gasValue": 0,
+      "humidity": 51.6,
+      "temperature": 32.8
+    },
+    "50665": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 29
+    },
+    "50826": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.6
+    },
+    "51024": {
+      "gasValue": 0,
+      "humidity": 55.6,
+      "temperature": 31.8
+    },
+    "51075": {
+      "gasValue": 0,
+      "humidity": 66.6,
+      "temperature": 33.5
+    },
+    "51224": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 36.2
+    },
+    "51387": {
+      "gasValue": 0,
+      "humidity": 56.7,
+      "temperature": 32
+    },
+    "51403": {
+      "gasValue": 125,
+      "humidity": 63.9,
+      "temperature": 34.4
+    },
+    "51816": {
+      "gasValue": 0,
+      "humidity": 67.8,
+      "temperature": 33
+    },
+    "53407": {
+      "gasValue": 0,
+      "humidity": 57.2,
+      "temperature": 32.2
+    },
+    "53962": {
+      "gasValue": 0,
+      "humidity": 64.8,
+      "temperature": 33.7
+    },
+    "53971": {
+      "gasValue": 197,
+      "humidity": 66.9,
+      "temperature": 34.1
+    },
+    "54036": {
+      "gasValue": 0,
+      "humidity": 57,
+      "temperature": 31
+    },
+    "54102": {
+      "gasValue": 0,
+      "humidity": 57.1,
+      "temperature": 32.5
+    },
+    "54113": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 35.9
+    },
+    "54117": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 33.9
+    },
+    "54146": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 35.2
+    },
+    "54185": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 29.3
+    },
+    "54313": {
+      "gasValue": 77,
+      "humidity": 67.6,
+      "temperature": 33.8
+    },
+    "54488": {
+      "gasValue": 0,
+      "humidity": 66.6,
+      "temperature": 33.5
+    },
+    "54525": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.2
+    },
+    "54527": {
+      "gasValue": 0,
+      "humidity": 59,
+      "temperature": 32.8
+    },
+    "54600": {
+      "gasValue": 688,
+      "humidity": 64.4,
+      "temperature": 31.8
+    },
+    "54606": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 31.9
+    },
+    "54618": {
+      "gasValue": 0,
+      "humidity": 68.8,
+      "temperature": 32.5
+    },
+    "54649": {
+      "gasValue": 82,
+      "humidity": 56.1,
+      "temperature": 35.7
+    },
+    "54793": {
+      "gasValue": 0,
+      "humidity": 49,
+      "temperature": 36.9
+    },
+    "54794": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 28.2
+    },
+    "54857": {
+      "gasValue": 3184,
+      "humidity": 75.4,
+      "temperature": 32
+    },
+    "54905": {
+      "gasValue": 203,
+      "humidity": 60.9,
+      "temperature": 32.2
+    },
+    "54906": {
+      "gasValue": 0,
+      "humidity": 0,
+      "temperature": 0
+    },
+    "54944": {
+      "gasValue": 343,
+      "humidity": 62.3,
+      "temperature": 32.1
+    },
+    "54970": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 32.6
+    },
+    "55045": {
+      "gasValue": 0,
+      "humidity": 62.9,
+      "temperature": 32.4
+    },
+    "55077": {
+      "gasValue": 0,
+      "humidity": 58.8,
+      "temperature": 32
+    },
+    "55611": {
+      "gasValue": 0,
+      "humidity": 52,
+      "temperature": 32.8
+    },
+    "55774": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.6
+    },
+    "55903": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29
+    },
+    "56101": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 36.2
+    },
+    "56112": {
+      "gasValue": 0,
+      "humidity": 55.7,
+      "temperature": 31.8
+    },
+    "56113": {
+      "gasValue": 0,
+      "humidity": 66.4,
+      "temperature": 33.5
+    },
+    "56295": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 32.2
+    },
+    "56833": {
+      "gasValue": 0,
+      "humidity": 56.2,
+      "temperature": 32
+    },
+    "56920": {
+      "gasValue": 9,
+      "humidity": 64.1,
+      "temperature": 34.3
+    },
+    "56932": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 33
+    },
+    "58121": {
+      "gasValue": 0,
+      "humidity": 56.3,
+      "temperature": 32.3
+    },
+    "58974": {
+      "gasValue": 149,
+      "humidity": 65.9,
+      "temperature": 34.1
+    },
+    "59039": {
+      "gasValue": 0,
+      "humidity": 64.9,
+      "temperature": 33.7
+    },
+    "59156": {
+      "gasValue": 0,
+      "humidity": 57.2,
+      "temperature": 32.5
+    },
+    "59157": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 33.9
+    },
+    "59168": {
+      "gasValue": 0,
+      "humidity": 56.4,
+      "temperature": 30.9
+    },
+    "59209": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.9
+    },
+    "59300": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.3
+    },
+    "59404": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.2
+    },
+    "59435": {
+      "gasValue": 50,
+      "humidity": 66.6,
+      "temperature": 33.9
+    },
+    "59437": {
+      "gasValue": 0,
+      "humidity": 68.3,
+      "temperature": 32.5
+    },
+    "59441": {
+      "gasValue": 0,
+      "humidity": 58.6,
+      "temperature": 35.2
+    },
+    "59493": {
+      "gasValue": 0,
+      "humidity": 58.6,
+      "temperature": 32.8
+    },
+    "59520": {
+      "gasValue": 0,
+      "humidity": 55.4,
+      "temperature": 35.7
+    },
+    "59685": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 31.8
+    },
+    "59692": {
+      "gasValue": 1302,
+      "humidity": 76,
+      "temperature": 31.9
+    },
+    "59698": {
+      "gasValue": 0,
+      "humidity": 66.2,
+      "temperature": 33.5
+    },
+    "59713": {
+      "gasValue": 0,
+      "humidity": 48.9,
+      "temperature": 36.9
+    },
+    "59768": {
+      "gasValue": 583,
+      "humidity": 63.8,
+      "temperature": 31.9
+    },
+    "59819": {
+      "gasValue": 226,
+      "humidity": 62.6,
+      "temperature": 32.1
+    },
+    "59872": {
+      "gasValue": 0,
+      "humidity": 62.7,
+      "temperature": 34.5
+    },
+    "59931": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 32.3
+    },
+    "60024": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 28.2
+    },
+    "60055": {
+      "gasValue": 0,
+      "humidity": 67.7,
+      "temperature": 32.6
+    },
+    "60086": {
+      "gasValue": 0,
+      "humidity": 56.1,
+      "temperature": 31.8
+    },
+    "60106": {
+      "gasValue": 0,
+      "humidity": 58.5,
+      "temperature": 32
+    },
+    "60183": {
+      "gasValue": 0,
+      "humidity": 62.2,
+      "temperature": 32.4
+    },
+    "60738": {
+      "gasValue": 0,
+      "humidity": 51.9,
+      "temperature": 32.8
+    },
+    "60753": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.1
+    },
+    "60900": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.6
+    },
+    "61134": {
+      "gasValue": 0,
+      "humidity": 66.3,
+      "temperature": 33.5
+    },
+    "61223": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 36.2
+    },
+    "61630": {
+      "gasValue": 30,
+      "humidity": 63.9,
+      "temperature": 34.4
+    },
+    "61780": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 33.1
+    },
+    "62116": {
+      "gasValue": 0,
+      "humidity": 56.6,
+      "temperature": 32
+    },
+    "63119": {
+      "gasValue": 0,
+      "humidity": 55.7,
+      "temperature": 32.2
+    },
+    "63253": {
+      "gasValue": 143,
+      "humidity": 59.1,
+      "temperature": 32.2
+    },
+    "64161": {
+      "gasValue": 64,
+      "humidity": 58.1,
+      "temperature": 32.4
+    },
+    "64169": {
+      "gasValue": 0,
+      "humidity": 65,
+      "temperature": 33.7
+    },
+    "64182": {
+      "gasValue": 0,
+      "humidity": 59,
+      "temperature": 35.2
+    },
+    "64198": {
+      "gasValue": 68,
+      "humidity": 65.3,
+      "temperature": 34.1
+    },
+    "64254": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 33.9
+    },
+    "64286": {
+      "gasValue": 0,
+      "humidity": 56.3,
+      "temperature": 31
+    },
+    "64367": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 35.9
+    },
+    "64420": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 29.3
+    },
+    "64482": {
+      "gasValue": 0,
+      "humidity": 56,
+      "temperature": 35.7
+    },
+    "64515": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.2
+    },
+    "64604": {
+      "gasValue": 14,
+      "humidity": 65.9,
+      "temperature": 33.9
+    },
+    "64646": {
+      "gasValue": 0,
+      "humidity": 58.9,
+      "temperature": 32.8
+    },
+    "64668": {
+      "gasValue": 0,
+      "humidity": 68.7,
+      "temperature": 32.5
+    },
+    "64760": {
+      "gasValue": 0,
+      "humidity": 54.2,
+      "temperature": 31.8
+    },
+    "64851": {
+      "gasValue": 0,
+      "humidity": 49.1,
+      "temperature": 36.9
+    },
+    "64863": {
+      "gasValue": 511,
+      "humidity": 75.9,
+      "temperature": 32
+    },
+    "64950": {
+      "gasValue": 0,
+      "humidity": 66.5,
+      "temperature": 33.5
+    },
+    "64990": {
+      "gasValue": 0,
+      "humidity": 62.5,
+      "temperature": 28.2
+    },
+    "65071": {
+      "gasValue": 0,
+      "humidity": 62.7,
+      "temperature": 34.5
+    },
+    "65090": {
+      "gasValue": 154,
+      "humidity": 60.1,
+      "temperature": 32.1
+    },
+    "65117": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 32.1
+    },
+    "65233": {
+      "gasValue": 0,
+      "humidity": 60.9,
+      "temperature": 31.9
+    },
+    "65267": {
+      "gasValue": 0,
+      "humidity": 62.1,
+      "temperature": 32.4
+    },
+    "65697": {
+      "gasValue": 69,
+      "humidity": 63,
+      "temperature": 31.9
+    },
+    "65705": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 29.1
+    },
+    "65786": {
+      "gasValue": 0,
+      "humidity": 51.9,
+      "temperature": 32.8
+    },
+    "65939": {
+      "gasValue": 103,
+      "humidity": 58.1,
+      "temperature": 32.3
+    },
+    "65992": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.6
+    },
+    "66112": {
+      "gasValue": 0,
+      "humidity": 66.2,
+      "temperature": 33.5
+    },
+    "66541": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 36.2
+    },
+    "66657": {
+      "gasValue": 137,
+      "humidity": 64.1,
+      "temperature": 34.4
+    },
+    "66881": {
+      "gasValue": 0,
+      "humidity": 67.9,
+      "temperature": 33.1
+    },
+    "67292": {
+      "gasValue": 0,
+      "humidity": 55.8,
+      "temperature": 32
+    },
+    "67461": {
+      "gasValue": 0,
+      "humidity": 54.2,
+      "temperature": 32.2
+    },
+    "67509": {
+      "gasValue": 82,
+      "humidity": 60,
+      "temperature": 31.5
+    },
+    "68401": {
+      "gasValue": 0,
+      "humidity": 55.6,
+      "temperature": 32.2
+    },
+    "69256": {
+      "gasValue": 30,
+      "humidity": 64.9,
+      "temperature": 34.1
+    },
+    "69285": {
+      "gasValue": 0,
+      "humidity": 58.3,
+      "temperature": 35.3
+    },
+    "69377": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 33.9
+    },
+    "69485": {
+      "gasValue": 0,
+      "humidity": 56.3,
+      "temperature": 31
+    },
+    "69493": {
+      "gasValue": 0,
+      "humidity": 68.6,
+      "temperature": 32.5
+    },
+    "69557": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.9
+    },
+    "69655": {
+      "gasValue": 0,
+      "humidity": 59,
+      "temperature": 32.8
+    },
+    "69684": {
+      "gasValue": 352,
+      "humidity": 60.4,
+      "temperature": 32.5
+    },
+    "69701": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 29.3
+    },
+    "69763": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 33.9
+    },
+    "69775": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.2
+    },
+    "69805": {
+      "gasValue": 0,
+      "humidity": 54.2,
+      "temperature": 31.8
+    },
+    "69808": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 32.3
+    },
+    "69913": {
+      "gasValue": 0,
+      "humidity": 66.1,
+      "temperature": 33.5
+    },
+    "69952": {
+      "gasValue": 0,
+      "humidity": 49.1,
+      "temperature": 36.9
+    },
+    "69980": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 28.3
+    },
+    "70083": {
+      "gasValue": 0,
+      "humidity": 62.6,
+      "temperature": 34.5
+    },
+    "70100": {
+      "gasValue": 505,
+      "humidity": 75.6,
+      "temperature": 31.9
+    },
+    "70178": {
+      "gasValue": 0,
+      "humidity": 62.8,
+      "temperature": 31.9
+    },
+    "70200": {
+      "gasValue": 0,
+      "humidity": 55.7,
+      "temperature": 35.8
+    },
+    "70240": {
+      "gasValue": 0,
+      "humidity": 58.5,
+      "temperature": 32.1
+    },
+    "70397": {
+      "gasValue": 0,
+      "humidity": 62,
+      "temperature": 32.4
+    },
+    "70586": {
+      "gasValue": 114,
+      "humidity": 59.9,
+      "temperature": 31.5
+    },
+    "70656": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 31.9
+    },
+    "70700": {
+      "gasValue": 0,
+      "humidity": 60,
+      "temperature": 29.2
+    },
+    "70906": {
+      "gasValue": 0,
+      "humidity": 52.3,
+      "temperature": 32.8
+    },
+    "71090": {
+      "gasValue": 147,
+      "humidity": 64.6,
+      "temperature": 34.6
+    },
+    "71325": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.5
+    },
+    "72076": {
+      "gasValue": 34,
+      "humidity": 63.9,
+      "temperature": 34.4
+    },
+    "72138": {
+      "gasValue": 0,
+      "humidity": 68.1,
+      "temperature": 33.1
+    },
+    "72333": {
+      "gasValue": 81,
+      "humidity": 57.7,
+      "temperature": 32.2
+    },
+    "72546": {
+      "gasValue": 0,
+      "humidity": 56.1,
+      "temperature": 32
+    },
+    "73279": {
+      "gasValue": 0,
+      "humidity": 55.5,
+      "temperature": 32.2
+    },
+    "74337": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 34.1
+    },
+    "74369": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 35.9
+    },
+    "74440": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 33.9
+    },
+    "74448": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.2
+    },
+    "74482": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 35.8
+    },
+    "74497": {
+      "gasValue": 112,
+      "humidity": 62.1,
+      "temperature": 32.5
+    },
+    "74588": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 29.3
+    },
+    "74612": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 35.3
+    },
+    "74626": {
+      "gasValue": 0,
+      "humidity": 68.4,
+      "temperature": 32.5
+    },
+    "74688": {
+      "gasValue": 0,
+      "humidity": 62.5,
+      "temperature": 31.9
+    },
+    "74913": {
+      "gasValue": 14,
+      "humidity": 65.6,
+      "temperature": 33.9
+    },
+    "74924": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 31.9
+    },
+    "75022": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 32.3
+    },
+    "75058": {
+      "gasValue": 269,
+      "humidity": 75.5,
+      "temperature": 32
+    },
+    "75153": {
+      "gasValue": 0,
+      "humidity": 49.3,
+      "temperature": 36.9
+    },
+    "75273": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 28.3
+    },
+    "75279": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.1
+    },
+    "75303": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 33.5
+    },
+    "75305": {
+      "gasValue": 0,
+      "humidity": 63.1,
+      "temperature": 34.5
+    },
+    "75693": {
+      "gasValue": 0,
+      "humidity": 59.9,
+      "temperature": 32.8
+    },
+    "75706": {
+      "gasValue": 99,
+      "humidity": 59.8,
+      "temperature": 31.5
+    },
+    "75865": {
+      "gasValue": 0,
+      "humidity": 59.9,
+      "temperature": 29.2
+    },
+    "75900": {
+      "gasValue": 368,
+      "humidity": 63.2,
+      "temperature": 31.9
+    },
+    "76116": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "76120": {
+      "gasValue": 0,
+      "humidity": 51.9,
+      "temperature": 32.8
+    },
+    "76174": {
+      "gasValue": 77,
+      "humidity": 57.4,
+      "temperature": 32.2
+    },
+    "76176": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.6
+    },
+    "76332": {
+      "gasValue": 0,
+      "humidity": 66.9,
+      "temperature": 33.5
+    },
+    "77393": {
+      "gasValue": 0,
+      "humidity": 56.9,
+      "temperature": 32.1
+    },
+    "77400": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.4
+    },
+    "78095": {
+      "gasValue": 0,
+      "humidity": 67.9,
+      "temperature": 33.1
+    },
+    "78561": {
+      "gasValue": 0,
+      "humidity": 55.4,
+      "temperature": 32.2
+    },
+    "79284": {
+      "gasValue": 48,
+      "humidity": 62.3,
+      "temperature": 32.6
+    },
+    "79418": {
+      "gasValue": 0,
+      "humidity": 65.4,
+      "temperature": 34.2
+    },
+    "79509": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34
+    },
+    "79633": {
+      "gasValue": 0,
+      "humidity": 66.9,
+      "temperature": 33.2
+    },
+    "79635": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 35.9
+    },
+    "79687": {
+      "gasValue": 0,
+      "humidity": 59.3,
+      "temperature": 35.3
+    },
+    "79740": {
+      "gasValue": 0,
+      "humidity": 67.7,
+      "temperature": 32.6
+    },
+    "79764": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 35.8
+    },
+    "79952": {
+      "gasValue": 14,
+      "humidity": 65.4,
+      "temperature": 33.9
+    },
+    "79965": {
+      "gasValue": 0,
+      "humidity": 53.9,
+      "temperature": 31.9
+    },
+    "79981": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 29.3
+    },
+    "80082": {
+      "gasValue": 320,
+      "humidity": 63.2,
+      "temperature": 31.9
+    },
+    "80096": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 33.5
+    },
+    "80141": {
+      "gasValue": 0,
+      "humidity": 54.9,
+      "temperature": 32.3
+    },
+    "80206": {
+      "gasValue": 0,
+      "humidity": 59.6,
+      "temperature": 32.8
+    },
+    "80223": {
+      "gasValue": 0,
+      "humidity": 64.4,
+      "temperature": 28.4
+    },
+    "80233": {
+      "gasValue": 145,
+      "humidity": 75.3,
+      "temperature": 32
+    },
+    "80313": {
+      "gasValue": 0,
+      "humidity": 49.2,
+      "temperature": 37
+    },
+    "80382": {
+      "gasValue": 0,
+      "humidity": 62.9,
+      "temperature": 34.5
+    },
+    "80485": {
+      "gasValue": 89,
+      "humidity": 59.7,
+      "temperature": 31.6
+    },
+    "80520": {
+      "gasValue": 0,
+      "humidity": 58.6,
+      "temperature": 32.1
+    },
+    "80918": {
+      "gasValue": 0,
+      "humidity": 62.3,
+      "temperature": 32
+    },
+    "81064": {
+      "gasValue": 0,
+      "humidity": 59.7,
+      "temperature": 29.2
+    },
+    "81265": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.6
+    },
+    "81443": {
+      "gasValue": 630,
+      "humidity": 62,
+      "temperature": 32.4
+    },
+    "81492": {
+      "gasValue": 17,
+      "humidity": 66.6,
+      "temperature": 33.5
+    },
+    "81576": {
+      "gasValue": 59,
+      "humidity": 57.1,
+      "temperature": 32.2
+    },
+    "81936": {
+      "gasValue": 444,
+      "humidity": 65,
+      "temperature": 34.4
+    },
+    "82244": {
+      "gasValue": 0,
+      "humidity": 51.9,
+      "temperature": 32.9
+    },
+    "82633": {
+      "gasValue": 0,
+      "humidity": 56,
+      "temperature": 32.1
+    },
+    "82812": {
+      "gasValue": 0,
+      "humidity": 68.1,
+      "temperature": 33.1
+    },
+    "83566": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 32.2
+    },
+    "84560": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 35.9
+    },
+    "84585": {
+      "gasValue": 22,
+      "humidity": 63.4,
+      "temperature": 32.5
+    },
+    "84609": {
+      "gasValue": 0,
+      "humidity": 65.3,
+      "temperature": 34.2
+    },
+    "84615": {
+      "gasValue": 0,
+      "humidity": 57.5,
+      "temperature": 35.4
+    },
+    "84679": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 35.8
+    },
+    "84704": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34
+    },
+    "84723": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.2
+    },
+    "84760": {
+      "gasValue": 0,
+      "humidity": 62.3,
+      "temperature": 32
+    },
+    "84907": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.3
+    },
+    "84923": {
+      "gasValue": 0,
+      "humidity": 65.3,
+      "temperature": 33.9
+    },
+    "85017": {
+      "gasValue": 0,
+      "humidity": 67.9,
+      "temperature": 32.6
+    },
+    "85032": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.5
+    },
+    "85312": {
+      "gasValue": 0,
+      "humidity": 59.3,
+      "temperature": 32.8
+    },
+    "85362": {
+      "gasValue": 160,
+      "humidity": 75.3,
+      "temperature": 32
+    },
+    "85417": {
+      "gasValue": 0,
+      "humidity": 62.6,
+      "temperature": 34.5
+    },
+    "85423": {
+      "gasValue": 0,
+      "humidity": 53.9,
+      "temperature": 31.9
+    },
+    "85468": {
+      "gasValue": 0,
+      "humidity": 64.2,
+      "temperature": 28.4
+    },
+    "85553": {
+      "gasValue": 0,
+      "humidity": 49.5,
+      "temperature": 37
+    },
+    "85716": {
+      "gasValue": 0,
+      "humidity": 58.3,
+      "temperature": 32.1
+    },
+    "85743": {
+      "gasValue": 493,
+      "humidity": 62.2,
+      "temperature": 32.4
+    },
+    "85871": {
+      "gasValue": 147,
+      "humidity": 0,
+      "temperature": 0
+    },
+    "85939": {
+      "gasValue": 78,
+      "humidity": 60.1,
+      "temperature": 31.6
+    },
+    "86242": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 29.3
+    },
+    "86516": {
+      "gasValue": 3472,
+      "humidity": 66.5,
+      "temperature": 33.5
+    },
+    "86593": {
+      "gasValue": 0,
+      "humidity": 51.9,
+      "temperature": 32.9
+    },
+    "87026": {
+      "gasValue": 222,
+      "humidity": 65.7,
+      "temperature": 34.4
+    },
+    "87173": {
+      "gasValue": 35,
+      "humidity": 57.4,
+      "temperature": 32.2
+    },
+    "87292": {
+      "gasValue": 0,
+      "humidity": 67.5,
+      "temperature": 33.2
+    },
+    "87395": {
+      "gasValue": 0,
+      "humidity": 56.1,
+      "temperature": 32
+    },
+    "88838": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 32.3
+    },
+    "89684": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.9
+    },
+    "89742": {
+      "gasValue": 0,
+      "humidity": 64.9,
+      "temperature": 34.1
+    },
+    "89765": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.2
+    },
+    "89767": {
+      "gasValue": 0,
+      "humidity": 57,
+      "temperature": 35.3
+    },
+    "89797": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 33.9
+    },
+    "89890": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 35.8
+    },
+    "89925": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.6
+    },
+    "90003": {
+      "gasValue": 0,
+      "humidity": 62.3,
+      "temperature": 32
+    },
+    "90044": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 34
+    },
+    "90053": {
+      "gasValue": 0,
+      "humidity": 67.9,
+      "temperature": 32.5
+    },
+    "90069": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 29.3
+    },
+    "90484": {
+      "gasValue": 0,
+      "humidity": 59.2,
+      "temperature": 32.8
+    },
+    "90512": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 32.3
+    },
+    "90517": {
+      "gasValue": 0,
+      "humidity": 62.5,
+      "temperature": 34.6
+    },
+    "90528": {
+      "gasValue": 105,
+      "humidity": 75.1,
+      "temperature": 32
+    },
+    "90566": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 33.5
+    },
+    "90567": {
+      "gasValue": 0,
+      "humidity": 0,
+      "temperature": 0
+    },
+    "90683": {
+      "gasValue": 195,
+      "humidity": 62,
+      "temperature": 32.4
+    },
+    "90803": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 31.9
+    },
+    "90816": {
+      "gasValue": 173,
+      "humidity": 60.6,
+      "temperature": 32
+    },
+    "90921": {
+      "gasValue": 0,
+      "humidity": 58.3,
+      "temperature": 32.1
+    },
+    "91222": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 29.3
+    },
+    "91707": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 31.6
+    },
+    "91777": {
+      "gasValue": 0,
+      "humidity": 57.5,
+      "temperature": 32.2
+    },
+    "92055": {
+      "gasValue": 78,
+      "humidity": 65.4,
+      "temperature": 34.4
+    },
+    "92313": {
+      "gasValue": 1385,
+      "humidity": 67.3,
+      "temperature": 33.2
+    },
+    "92634": {
+      "gasValue": 0,
+      "humidity": 56.6,
+      "temperature": 32
+    },
+    "93672": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 32.3
+    },
+    "94254": {
+      "gasValue": 0,
+      "humidity": 51.5,
+      "temperature": 32.9
+    },
+    "94613": {
+      "gasValue": 0,
+      "humidity": 59.1,
+      "temperature": 32.6
+    },
+    "94852": {
+      "gasValue": 0,
+      "humidity": 64.7,
+      "temperature": 34.1
+    },
+    "94858": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34
+    },
+    "94930": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 35.9
+    },
+    "94953": {
+      "gasValue": 0,
+      "humidity": 68.1,
+      "temperature": 33.2
+    },
+    "94966": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 32.6
+    },
+    "95096": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 35.8
+    },
+    "95110": {
+      "gasValue": 0,
+      "humidity": 65.1,
+      "temperature": 33.9
+    },
+    "95122": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.6
+    },
+    "95188": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.3
+    },
+    "95242": {
+      "gasValue": 0,
+      "humidity": 62.2,
+      "temperature": 32
+    },
+    "95437": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 32.8
+    },
+    "95548": {
+      "gasValue": 0,
+      "humidity": 62.5,
+      "temperature": 34.6
+    },
+    "95605": {
+      "gasValue": 97,
+      "humidity": 75.2,
+      "temperature": 32
+    },
+    "95758": {
+      "gasValue": 0,
+      "humidity": 48.8,
+      "temperature": 37
+    },
+    "95844": {
+      "gasValue": 549,
+      "humidity": 58.6,
+      "temperature": 32
+    },
+    "95877": {
+      "gasValue": 0,
+      "humidity": 58.4,
+      "temperature": 32.1
+    },
+    "95976": {
+      "gasValue": 0,
+      "humidity": 59.9,
+      "temperature": 31.6
+    },
+    "95992": {
+      "gasValue": 91,
+      "humidity": 62,
+      "temperature": 32.4
+    },
+    "96317": {
+      "gasValue": 0,
+      "humidity": 59.9,
+      "temperature": 29.4
+    },
+    "96533": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 32.3
+    },
+    "96699": {
+      "gasValue": 0,
+      "humidity": 51.5,
+      "temperature": 32.9
+    },
+    "97378": {
+      "gasValue": 0,
+      "humidity": 57.4,
+      "temperature": 32.2
+    },
+    "97619": {
+      "gasValue": 0,
+      "humidity": 56.5,
+      "temperature": 32.1
+    },
+    "97675": {
+      "gasValue": 25,
+      "humidity": 64.2,
+      "temperature": 34.4
+    },
+    "98757": {
+      "gasValue": 0,
+      "humidity": 54.9,
+      "temperature": 32.3
+    },
+    "99305": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 31.9
+    },
+    "99831": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 35.9
+    },
+    "99884": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34
+    },
+    "99900": {
+      "gasValue": 0,
+      "humidity": 64.3,
+      "temperature": 34.1
+    },
+    "100008": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 35.8
+    },
+    "100114": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 32.6
+    },
+    "100204": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.1
+    },
+    "100312": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 34
+    },
+    "100488": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.6
+    },
+    "100707": {
+      "gasValue": 0,
+      "humidity": 62.4,
+      "temperature": 34.6
+    },
+    "100753": {
+      "gasValue": 0,
+      "humidity": 48.6,
+      "temperature": 37
+    },
+    "100820": {
+      "gasValue": 64,
+      "humidity": 75.2,
+      "temperature": 32
+    },
+    "100884": {
+      "gasValue": 0,
+      "humidity": 57,
+      "temperature": 32.8
+    },
+    "100935": {
+      "gasValue": 0,
+      "humidity": 58.8,
+      "temperature": 32.2
+    },
+    "100959": {
+      "gasValue": 219,
+      "humidity": 57.5,
+      "temperature": 32
+    },
+    "101017": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 29.3
+    },
+    "101198": {
+      "gasValue": 454,
+      "humidity": 61.4,
+      "temperature": 31.6
+    },
+    "101528": {
+      "gasValue": 30,
+      "humidity": 61.7,
+      "temperature": 32.4
+    },
+    "101895": {
+      "gasValue": 0,
+      "humidity": 59.6,
+      "temperature": 29.4
+    },
+    "102019": {
+      "gasValue": 0,
+      "humidity": 57.3,
+      "temperature": 32.2
+    },
+    "102256": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 32.3
+    },
+    "102477": {
+      "gasValue": 0,
+      "humidity": 51.5,
+      "temperature": 32.9
+    },
+    "102591": {
+      "gasValue": 6,
+      "humidity": 63.7,
+      "temperature": 34.5
+    },
+    "102794": {
+      "gasValue": 0,
+      "humidity": 56,
+      "temperature": 32.1
+    },
+    "103370": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 31.9
+    },
+    "103838": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 32.3
+    },
+    "104942": {
+      "gasValue": 0,
+      "humidity": 55.3,
+      "temperature": 35.9
+    },
+    "104991": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34
+    },
+    "105051": {
+      "gasValue": 0,
+      "humidity": 64.4,
+      "temperature": 34.1
+    },
+    "105128": {
+      "gasValue": 0,
+      "humidity": 54.9,
+      "temperature": 35.8
+    },
+    "105232": {
+      "gasValue": 0,
+      "humidity": 65.4,
+      "temperature": 34
+    },
+    "105315": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 32.3
+    },
+    "105342": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.3
+    },
+    "105443": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.1
+    },
+    "105504": {
+      "gasValue": 0,
+      "humidity": 65.6,
+      "temperature": 33.6
+    },
+    "105718": {
+      "gasValue": 0,
+      "humidity": 62.4,
+      "temperature": 34.6
+    },
+    "105792": {
+      "gasValue": 0,
+      "humidity": 48.8,
+      "temperature": 37
+    },
+    "105919": {
+      "gasValue": 0,
+      "humidity": 56.6,
+      "temperature": 31.8
+    },
+    "105927": {
+      "gasValue": 37,
+      "humidity": 75.1,
+      "temperature": 32
+    },
+    "106043": {
+      "gasValue": 112,
+      "humidity": 60.9,
+      "temperature": 32.2
+    },
+    "106116": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "106420": {
+      "gasValue": 845,
+      "humidity": 62.8,
+      "temperature": 31.6
+    },
+    "106523": {
+      "gasValue": 0,
+      "humidity": 59.3,
+      "temperature": 29.4
+    },
+    "106815": {
+      "gasValue": 64,
+      "humidity": 57.6,
+      "temperature": 32.2
+    },
+    "106841": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 31.9
+    },
+    "107229": {
+      "gasValue": 0,
+      "humidity": 51.5,
+      "temperature": 32.9
+    },
+    "107506": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.5
+    },
+    "107585": {
+      "gasValue": 0,
+      "humidity": 56.7,
+      "temperature": 32.7
+    },
+    "107658": {
+      "gasValue": 462,
+      "humidity": 67.3,
+      "temperature": 33.5
+    },
+    "107881": {
+      "gasValue": 0,
+      "humidity": 56,
+      "temperature": 32.1
+    },
+    "108838": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 32.3
+    },
+    "110007": {
+      "gasValue": 0,
+      "humidity": 55.5,
+      "temperature": 35.9
+    },
+    "110098": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34
+    },
+    "110177": {
+      "gasValue": 0,
+      "humidity": 64.3,
+      "temperature": 34.2
+    },
+    "110320": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 35.8
+    },
+    "110443": {
+      "gasValue": 0,
+      "humidity": 65.1,
+      "temperature": 34
+    },
+    "110567": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.5
+    },
+    "110602": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.1
+    },
+    "110621": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 29.2
+    },
+    "110833": {
+      "gasValue": 0,
+      "humidity": 48.6,
+      "temperature": 37
+    },
+    "110837": {
+      "gasValue": 212,
+      "humidity": 60.7,
+      "temperature": 32.2
+    },
+    "110941": {
+      "gasValue": 0,
+      "humidity": 62.2,
+      "temperature": 34.6
+    },
+    "111023": {
+      "gasValue": 0,
+      "humidity": 56.7,
+      "temperature": 31.8
+    },
+    "111082": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 32.3
+    },
+    "111103": {
+      "gasValue": 0,
+      "humidity": 75.2,
+      "temperature": 32
+    },
+    "111239": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "111669": {
+      "gasValue": 0,
+      "humidity": 59.3,
+      "temperature": 29.4
+    },
+    "111720": {
+      "gasValue": 0,
+      "humidity": 51.7,
+      "temperature": 32.9
+    },
+    "111825": {
+      "gasValue": 750,
+      "humidity": 59.5,
+      "temperature": 32.2
+    },
+    "112000": {
+      "gasValue": 0,
+      "humidity": 53.9,
+      "temperature": 31.9
+    },
+    "112127": {
+      "gasValue": 0,
+      "humidity": 56.8,
+      "temperature": 32.6
+    },
+    "112832": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.5
+    },
+    "113139": {
+      "gasValue": 0,
+      "humidity": 55.3,
+      "temperature": 32.1
+    },
+    "114257": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 32.3
+    },
+    "114318": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.6
+    },
+    "115297": {
+      "gasValue": 0,
+      "humidity": 64.2,
+      "temperature": 34.1
+    },
+    "115323": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.8
+    },
+    "115393": {
+      "gasValue": 0,
+      "humidity": 55.3,
+      "temperature": 35.9
+    },
+    "115442": {
+      "gasValue": 0,
+      "humidity": 65.1,
+      "temperature": 34
+    },
+    "115483": {
+      "gasValue": 0,
+      "humidity": 62,
+      "temperature": 32.1
+    },
+    "115836": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 32.3
+    },
+    "115936": {
+      "gasValue": 0,
+      "humidity": 56.7,
+      "temperature": 31.8
+    },
+    "115968": {
+      "gasValue": 0,
+      "humidity": 62.4,
+      "temperature": 34.6
+    },
+    "115995": {
+      "gasValue": 0,
+      "humidity": 48.7,
+      "temperature": 37
+    },
+    "116189": {
+      "gasValue": 162,
+      "humidity": 60.1,
+      "temperature": 32.2
+    },
+    "116248": {
+      "gasValue": 0,
+      "humidity": 75,
+      "temperature": 32
+    },
+    "116316": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.4
+    },
+    "116504": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 29.2
+    },
+    "116592": {
+      "gasValue": 0,
+      "humidity": 51.6,
+      "temperature": 32.8
+    },
+    "116668": {
+      "gasValue": 0,
+      "humidity": 59.3,
+      "temperature": 29.5
+    },
+    "116674": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34
+    },
+    "116767": {
+      "gasValue": 0,
+      "humidity": 53.9,
+      "temperature": 31.9
+    },
+    "116775": {
+      "gasValue": 0,
+      "humidity": 56.9,
+      "temperature": 32.6
+    },
+    "116853": {
+      "gasValue": 1008,
+      "humidity": 61.7,
+      "temperature": 32.3
+    },
+    "117756": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.5
+    },
+    "118175": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 32.1
+    },
+    "119488": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 32.3
+    },
+    "120247": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34
+    },
+    "120273": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 36
+    },
+    "120357": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 34.1
+    },
+    "120399": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.8
+    },
+    "120470": {
+      "gasValue": 0,
+      "humidity": 64.8,
+      "temperature": 34
+    },
+    "120472": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.5
+    },
+    "120504": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.2
+    },
+    "120547": {
+      "gasValue": 0,
+      "humidity": 62,
+      "temperature": 32.1
+    },
+    "120965": {
+      "gasValue": 0,
+      "humidity": 62.2,
+      "temperature": 34.6
+    },
+    "121026": {
+      "gasValue": 164,
+      "humidity": 60.2,
+      "temperature": 32.2
+    },
+    "121233": {
+      "gasValue": 0,
+      "humidity": 48.8,
+      "temperature": 37
+    },
+    "121327": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 32.3
+    },
+    "121420": {
+      "gasValue": 0,
+      "humidity": 75,
+      "temperature": 32
+    },
+    "121457": {
+      "gasValue": 0,
+      "humidity": 57.2,
+      "temperature": 31.8
+    },
+    "121722": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.4
+    },
+    "121945": {
+      "gasValue": 1342,
+      "humidity": 63.1,
+      "temperature": 32.3
+    },
+    "121969": {
+      "gasValue": 0,
+      "humidity": 57.1,
+      "temperature": 32.5
+    },
+    "122085": {
+      "gasValue": 0,
+      "humidity": 51.7,
+      "temperature": 32.8
+    },
+    "122128": {
+      "gasValue": 0,
+      "humidity": 53.9,
+      "temperature": 31.9
+    },
+    "122146": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.3
+    },
+    "122380": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.3
+    },
+    "123071": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.5
+    },
+    "123217": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 32.1
+    },
+    "123227": {
+      "gasValue": 0,
+      "humidity": 59.3,
+      "temperature": 29.6
+    },
+    "124510": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.6
+    },
+    "124597": {
+      "gasValue": 0,
+      "humidity": 55.1,
+      "temperature": 32.3
+    },
+    "125384": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34
+    },
+    "125402": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.8
+    },
+    "125433": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.9
+    },
+    "125497": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.1
+    },
+    "125525": {
+      "gasValue": 0,
+      "humidity": 62.1,
+      "temperature": 32.1
+    },
+    "125682": {
+      "gasValue": 0,
+      "humidity": 64.9,
+      "temperature": 34
+    },
+    "126053": {
+      "gasValue": 0,
+      "humidity": 62.3,
+      "temperature": 34.6
+    },
+    "126118": {
+      "gasValue": 1129,
+      "humidity": 59.8,
+      "temperature": 32.2
+    },
+    "126155": {
+      "gasValue": 443,
+      "humidity": 54.5,
+      "temperature": 32.3
+    },
+    "126193": {
+      "gasValue": 0,
+      "humidity": 48.9,
+      "temperature": 37
+    },
+    "126399": {
+      "gasValue": 0,
+      "humidity": 58,
+      "temperature": 31.8
+    },
+    "126488": {
+      "gasValue": 0,
+      "humidity": 74.9,
+      "temperature": 32.1
+    },
+    "126560": {
+      "gasValue": 465,
+      "humidity": 61.4,
+      "temperature": 32.3
+    },
+    "126577": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.4
+    },
+    "126869": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 29.3
+    },
+    "126906": {
+      "gasValue": 0,
+      "humidity": 51.7,
+      "temperature": 32.9
+    },
+    "126915": {
+      "gasValue": 0,
+      "humidity": 57.3,
+      "temperature": 32.4
+    },
+    "127044": {
+      "gasValue": 0,
+      "humidity": 53.7,
+      "temperature": 31.9
+    },
+    "127198": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.2
+    },
+    "127555": {
+      "gasValue": 0,
+      "humidity": 59.2,
+      "temperature": 29.6
+    },
+    "127876": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.5
+    },
+    "128513": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 32.1
+    },
+    "129519": {
+      "gasValue": 496,
+      "humidity": 55.4,
+      "temperature": 32.3
+    },
+    "129632": {
+      "gasValue": 0,
+      "humidity": 66.6,
+      "temperature": 33.6
+    },
+    "130445": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.1
+    },
+    "130529": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.9
+    },
+    "130605": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.1
+    },
+    "130619": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 34.1
+    },
+    "130640": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 35.8
+    },
+    "130724": {
+      "gasValue": 0,
+      "humidity": 64.9,
+      "temperature": 34
+    },
+    "131051": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.6
+    },
+    "131104": {
+      "gasValue": 0,
+      "humidity": 62.6,
+      "temperature": 34.6
+    },
+    "131368": {
+      "gasValue": 0,
+      "humidity": 48.8,
+      "temperature": 37
+    },
+    "131390": {
+      "gasValue": 481,
+      "humidity": 59.2,
+      "temperature": 32.2
+    },
+    "131483": {
+      "gasValue": 0,
+      "humidity": 62,
+      "temperature": 32.4
+    },
+    "131520": {
+      "gasValue": 0,
+      "humidity": 57.7,
+      "temperature": 31.8
+    },
+    "131647": {
+      "gasValue": 0,
+      "humidity": 75,
+      "temperature": 32
+    },
+    "131759": {
+      "gasValue": 416,
+      "humidity": 61.6,
+      "temperature": 32.3
+    },
+    "131868": {
+      "gasValue": 0,
+      "humidity": 52.1,
+      "temperature": 32.8
+    },
+    "132164": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.3
+    },
+    "132406": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 31.9
+    },
+    "132526": {
+      "gasValue": 0,
+      "humidity": 57.1,
+      "temperature": 32.4
+    },
+    "132622": {
+      "gasValue": 0,
+      "humidity": 58.9,
+      "temperature": 29.7
+    },
+    "132626": {
+      "gasValue": 0,
+      "humidity": 60.9,
+      "temperature": 29.2
+    },
+    "133107": {
+      "gasValue": 0,
+      "humidity": 63.4,
+      "temperature": 34.5
+    },
+    "133840": {
+      "gasValue": 161,
+      "humidity": 54.7,
+      "temperature": 32.3
+    },
+    "134199": {
+      "gasValue": 179,
+      "humidity": 55.1,
+      "temperature": 32.3
+    },
+    "134726": {
+      "gasValue": 0,
+      "humidity": 66.5,
+      "temperature": 33.6
+    },
+    "134736": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 32.1
+    },
+    "135352": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 32.6
+    },
+    "135495": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34
+    },
+    "135563": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 35.8
+    },
+    "135643": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.1
+    },
+    "135689": {
+      "gasValue": 1591,
+      "humidity": 55.1,
+      "temperature": 36
+    },
+    "135777": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 34.1
+    },
+    "135962": {
+      "gasValue": 0,
+      "humidity": 64.7,
+      "temperature": 34
+    },
+    "136109": {
+      "gasValue": 0,
+      "humidity": 63.1,
+      "temperature": 34.6
+    },
+    "136236": {
+      "gasValue": 212,
+      "humidity": 58,
+      "temperature": 32.2
+    },
+    "136307": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 29.3
+    },
+    "136368": {
+      "gasValue": 44,
+      "humidity": 55.2,
+      "temperature": 32.3
+    },
+    "136512": {
+      "gasValue": 0,
+      "humidity": 49,
+      "temperature": 37
+    },
+    "136543": {
+      "gasValue": 0,
+      "humidity": 57.5,
+      "temperature": 31.9
+    },
+    "136605": {
+      "gasValue": 337,
+      "humidity": 62.9,
+      "temperature": 32.4
+    },
+    "136622": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.4
+    },
+    "136768": {
+      "gasValue": 0,
+      "humidity": 75,
+      "temperature": 32.1
+    },
+    "136834": {
+      "gasValue": 0,
+      "humidity": 57.2,
+      "temperature": 32.2
+    },
+    "136965": {
+      "gasValue": 0,
+      "humidity": 52.3,
+      "temperature": 32.9
+    },
+    "137307": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.3
+    },
+    "137309": {
+      "gasValue": 0,
+      "humidity": 59,
+      "temperature": 29.7
+    },
+    "137497": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 32
+    },
+    "138431": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.5
+    },
+    "138680": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 32.1
+    },
+    "139448": {
+      "gasValue": 50,
+      "humidity": 54.8,
+      "temperature": 32.3
+    },
+    "139877": {
+      "gasValue": 0,
+      "humidity": 66.3,
+      "temperature": 33.6
+    },
+    "140594": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.1
+    },
+    "140650": {
+      "gasValue": 503,
+      "humidity": 55.5,
+      "temperature": 36
+    },
+    "140677": {
+      "gasValue": 0,
+      "humidity": 60.6,
+      "temperature": 32.6
+    },
+    "140683": {
+      "gasValue": 0,
+      "humidity": 62,
+      "temperature": 32.2
+    },
+    "140744": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 35.8
+    },
+    "141048": {
+      "gasValue": 0,
+      "humidity": 64.7,
+      "temperature": 34
+    },
+    "141058": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.1
+    },
+    "141198": {
+      "gasValue": 0,
+      "humidity": 54.9,
+      "temperature": 32.4
+    },
+    "141302": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.2
+    },
+    "141312": {
+      "gasValue": 0,
+      "humidity": 63.3,
+      "temperature": 34.6
+    },
+    "141725": {
+      "gasValue": 0,
+      "humidity": 48.8,
+      "temperature": 37
+    },
+    "141798": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 31.9
+    },
+    "141847": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.4
+    },
+    "141927": {
+      "gasValue": 0,
+      "humidity": 74.9,
+      "temperature": 32.1
+    },
+    "141946": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 32.9
+    },
+    "141948": {
+      "gasValue": 291,
+      "humidity": 62.3,
+      "temperature": 32.4
+    },
+    "142043": {
+      "gasValue": 135,
+      "humidity": 57.5,
+      "temperature": 32.3
+    },
+    "142165": {
+      "gasValue": 0,
+      "humidity": 57.5,
+      "temperature": 32.1
+    },
+    "142443": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 31.9
+    },
+    "142473": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.3
+    },
+    "142708": {
+      "gasValue": 0,
+      "humidity": 59.2,
+      "temperature": 29.7
+    },
+    "143345": {
+      "gasValue": 0,
+      "humidity": 63.4,
+      "temperature": 34.5
+    },
+    "143735": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 32.2
+    },
+    "144558": {
+      "gasValue": 25,
+      "humidity": 54.9,
+      "temperature": 32.3
+    },
+    "145592": {
+      "gasValue": 51,
+      "humidity": 60.6,
+      "temperature": 32.6
+    },
+    "145649": {
+      "gasValue": 0,
+      "humidity": 55.4,
+      "temperature": 36
+    },
+    "145741": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.1
+    },
+    "145765": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 35.8
+    },
+    "146012": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.2
+    },
+    "146091": {
+      "gasValue": 0,
+      "humidity": 60.9,
+      "temperature": 29.2
+    },
+    "146186": {
+      "gasValue": 0,
+      "humidity": 64.8,
+      "temperature": 34
+    },
+    "146202": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.1
+    },
+    "146346": {
+      "gasValue": 0,
+      "humidity": 66.5,
+      "temperature": 33.6
+    },
+    "146468": {
+      "gasValue": 0,
+      "humidity": 63.3,
+      "temperature": 34.6
+    },
+    "146513": {
+      "gasValue": 0,
+      "humidity": 54.8,
+      "temperature": 32.3
+    },
+    "146665": {
+      "gasValue": 0,
+      "humidity": 57,
+      "temperature": 31.9
+    },
+    "146728": {
+      "gasValue": 0,
+      "humidity": 49,
+      "temperature": 37
+    },
+    "146804": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "146905": {
+      "gasValue": 80,
+      "humidity": 57.5,
+      "temperature": 32.3
+    },
+    "147077": {
+      "gasValue": 0,
+      "humidity": 0,
+      "temperature": 0
+    },
+    "147089": {
+      "gasValue": 0,
+      "humidity": 74.8,
+      "temperature": 32.1
+    },
+    "147216": {
+      "gasValue": 0,
+      "humidity": 57.7,
+      "temperature": 32.1
+    },
+    "147235": {
+      "gasValue": 229,
+      "humidity": 61.6,
+      "temperature": 32.4
+    },
+    "147498": {
+      "gasValue": 0,
+      "humidity": 66.6,
+      "temperature": 33.3
+    },
+    "147525": {
+      "gasValue": 0,
+      "humidity": 53.7,
+      "temperature": 32
+    },
+    "147850": {
+      "gasValue": 0,
+      "humidity": 59.2,
+      "temperature": 29.7
+    },
+    "148836": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 32.2
+    },
+    "150085": {
+      "gasValue": 0,
+      "humidity": 66.4,
+      "temperature": 33.7
+    },
+    "150640": {
+      "gasValue": 0,
+      "humidity": 54.9,
+      "temperature": 35.8
+    },
+    "150667": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 36
+    },
+    "150855": {
+      "gasValue": 0,
+      "humidity": 64.2,
+      "temperature": 34.1
+    },
+    "151124": {
+      "gasValue": 854,
+      "humidity": 60.7,
+      "temperature": 32.7
+    },
+    "151142": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 29.2
+    },
+    "151197": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.2
+    },
+    "151233": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 32.3
+    },
+    "151248": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.1
+    },
+    "151392": {
+      "gasValue": 0,
+      "humidity": 64.7,
+      "temperature": 34
+    },
+    "151513": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.6
+    },
+    "151626": {
+      "gasValue": 48,
+      "humidity": 57.1,
+      "temperature": 32.2
+    },
+    "151698": {
+      "gasValue": 0,
+      "humidity": 56.8,
+      "temperature": 31.9
+    },
+    "151835": {
+      "gasValue": 0,
+      "humidity": 49.1,
+      "temperature": 37
+    },
+    "151908": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.4
+    },
+    "152073": {
+      "gasValue": 164,
+      "humidity": 59.5,
+      "temperature": 32.5
+    },
+    "152248": {
+      "gasValue": 0,
+      "humidity": 74.6,
+      "temperature": 32.1
+    },
+    "152321": {
+      "gasValue": 0,
+      "humidity": 53.7,
+      "temperature": 32
+    },
+    "152467": {
+      "gasValue": 0,
+      "humidity": 58,
+      "temperature": 31.9
+    },
+    "152706": {
+      "gasValue": 0,
+      "humidity": 66.6,
+      "temperature": 33.3
+    },
+    "153003": {
+      "gasValue": 0,
+      "humidity": 59.6,
+      "temperature": 29.8
+    },
+    "153564": {
+      "gasValue": 0,
+      "humidity": 53.4,
+      "temperature": 32.8
+    },
+    "154000": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 32.2
+    },
+    "155048": {
+      "gasValue": 0,
+      "humidity": 66.1,
+      "temperature": 33.6
+    },
+    "155628": {
+      "gasValue": 321,
+      "humidity": 60.3,
+      "temperature": 32.6
+    },
+    "155978": {
+      "gasValue": 0,
+      "humidity": 64.2,
+      "temperature": 34.1
+    },
+    "156236": {
+      "gasValue": 0,
+      "humidity": 54.2,
+      "temperature": 32.3
+    },
+    "156292": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.2
+    },
+    "156308": {
+      "gasValue": 0,
+      "humidity": 64.7,
+      "temperature": 34
+    },
+    "156449": {
+      "gasValue": 642,
+      "humidity": 57.8,
+      "temperature": 31.9
+    },
+    "156475": {
+      "gasValue": 715,
+      "humidity": 64.7,
+      "temperature": 34.6
+    },
+    "156518": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 29.2
+    },
+    "156672": {
+      "gasValue": 0,
+      "humidity": 55,
+      "temperature": 36
+    },
+    "156740": {
+      "gasValue": 18,
+      "humidity": 57.2,
+      "temperature": 32.3
+    },
+    "156964": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.2
+    },
+    "156996": {
+      "gasValue": 0,
+      "humidity": 49.1,
+      "temperature": 37
+    },
+    "157102": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "157283": {
+      "gasValue": 0,
+      "humidity": 53.7,
+      "temperature": 32
+    },
+    "157369": {
+      "gasValue": 0,
+      "humidity": 74.8,
+      "temperature": 32.1
+    },
+    "157628": {
+      "gasValue": 0,
+      "humidity": 52.7,
+      "temperature": 32.8
+    },
+    "157703": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.3
+    },
+    "157706": {
+      "gasValue": 0,
+      "humidity": 59.5,
+      "temperature": 29.8
+    },
+    "157843": {
+      "gasValue": 0,
+      "humidity": 58.2,
+      "temperature": 31.9
+    },
+    "159178": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 32.2
+    },
+    "160184": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.7
+    },
+    "160949": {
+      "gasValue": 0,
+      "humidity": 55.3,
+      "temperature": 35.9
+    },
+    "160959": {
+      "gasValue": 0,
+      "humidity": 63.3,
+      "temperature": 34.5
+    },
+    "161110": {
+      "gasValue": 0,
+      "humidity": 64.3,
+      "temperature": 34.1
+    },
+    "161166": {
+      "gasValue": 142,
+      "humidity": 59.7,
+      "temperature": 32.6
+    },
+    "161321": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.2
+    },
+    "161364": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.2
+    },
+    "161500": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 29.2
+    },
+    "161564": {
+      "gasValue": 0,
+      "humidity": 64.6,
+      "temperature": 34
+    },
+    "161716": {
+      "gasValue": 304,
+      "humidity": 58.8,
+      "temperature": 31.9
+    },
+    "161810": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.4
+    },
+    "161819": {
+      "gasValue": 28,
+      "humidity": 64.1,
+      "temperature": 34.7
+    },
+    "161967": {
+      "gasValue": 0,
+      "humidity": 57,
+      "temperature": 32.3
+    },
+    "162153": {
+      "gasValue": 0,
+      "humidity": 49.6,
+      "temperature": 37
+    },
+    "162330": {
+      "gasValue": 0,
+      "humidity": 58.5,
+      "temperature": 31.8
+    },
+    "162365": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "162481": {
+      "gasValue": 0,
+      "humidity": 59.2,
+      "temperature": 29.8
+    },
+    "162528": {
+      "gasValue": 0,
+      "humidity": 74.6,
+      "temperature": 32.1
+    },
+    "162684": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.3
+    },
+    "163150": {
+      "gasValue": 0,
+      "humidity": 51.3,
+      "temperature": 32.7
+    },
+    "164259": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 32.2
+    },
+    "165790": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.7
+    },
+    "165870": {
+      "gasValue": 112,
+      "humidity": 59.5,
+      "temperature": 32.7
+    },
+    "166269": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 29.2
+    },
+    "166332": {
+      "gasValue": 0,
+      "humidity": 65.6,
+      "temperature": 34.2
+    },
+    "166580": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.1
+    },
+    "166665": {
+      "gasValue": 596,
+      "humidity": 63.7,
+      "temperature": 34.6
+    },
+    "166671": {
+      "gasValue": 0,
+      "humidity": 64.6,
+      "temperature": 34
+    },
+    "166882": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.4
+    },
+    "166908": {
+      "gasValue": 0,
+      "humidity": 57,
+      "temperature": 32.3
+    },
+    "166946": {
+      "gasValue": 0,
+      "humidity": 55.8,
+      "temperature": 36
+    },
+    "166978": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.5
+    },
+    "167150": {
+      "gasValue": 149,
+      "humidity": 58.9,
+      "temperature": 31.9
+    },
+    "167324": {
+      "gasValue": 0,
+      "humidity": 49.5,
+      "temperature": 37
+    },
+    "167370": {
+      "gasValue": 0,
+      "humidity": 51.6,
+      "temperature": 32.7
+    },
+    "167587": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 31.9
+    },
+    "167629": {
+      "gasValue": 0,
+      "humidity": 58.9,
+      "temperature": 29.8
+    },
+    "167683": {
+      "gasValue": 0,
+      "humidity": 74.4,
+      "temperature": 32.1
+    },
+    "167713": {
+      "gasValue": 0,
+      "humidity": 58.6,
+      "temperature": 31.7
+    },
+    "167816": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.4
+    },
+    "168825": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.2
+    },
+    "169375": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 32.2
+    },
+    "170390": {
+      "gasValue": 0,
+      "humidity": 66.1,
+      "temperature": 33.6
+    },
+    "171355": {
+      "gasValue": 0,
+      "humidity": 64.3,
+      "temperature": 34.2
+    },
+    "171453": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "171476": {
+      "gasValue": 0,
+      "humidity": 55.5,
+      "temperature": 35.9
+    },
+    "171483": {
+      "gasValue": 0,
+      "humidity": 63.3,
+      "temperature": 34.5
+    },
+    "171596": {
+      "gasValue": 0,
+      "humidity": 64.5,
+      "temperature": 34
+    },
+    "171622": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 29.2
+    },
+    "171773": {
+      "gasValue": 46,
+      "humidity": 63.4,
+      "temperature": 34.6
+    },
+    "171963": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "172045": {
+      "gasValue": 80,
+      "humidity": 58.8,
+      "temperature": 32
+    },
+    "172095": {
+      "gasValue": 0,
+      "humidity": 56.9,
+      "temperature": 32.3
+    },
+    "172322": {
+      "gasValue": 0,
+      "humidity": 49.2,
+      "temperature": 37
+    },
+    "172406": {
+      "gasValue": 0,
+      "humidity": 58.7,
+      "temperature": 31.6
+    },
+    "172676": {
+      "gasValue": 0,
+      "humidity": 58.7,
+      "temperature": 29.9
+    },
+    "172712": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "172877": {
+      "gasValue": 0,
+      "humidity": 51.6,
+      "temperature": 32.6
+    },
+    "172971": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.4
+    },
+    "173930": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.2
+    },
+    "174473": {
+      "gasValue": 0,
+      "humidity": 53.8,
+      "temperature": 32.2
+    },
+    "175425": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.7
+    },
+    "176541": {
+      "gasValue": 0,
+      "humidity": 55.4,
+      "temperature": 36
+    },
+    "176545": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "176624": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.2
+    },
+    "176714": {
+      "gasValue": 0,
+      "humidity": 64.5,
+      "temperature": 34
+    },
+    "176866": {
+      "gasValue": 0,
+      "humidity": 64.4,
+      "temperature": 34.6
+    },
+    "176944": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.4
+    },
+    "177078": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 29.2
+    },
+    "177149": {
+      "gasValue": 0,
+      "humidity": 59.4,
+      "temperature": 32.3
+    },
+    "177575": {
+      "gasValue": 242,
+      "humidity": 49.1,
+      "temperature": 37
+    },
+    "177646": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "177812": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.2
+    },
+    "177828": {
+      "gasValue": 0,
+      "humidity": 58.4,
+      "temperature": 29.9
+    },
+    "177957": {
+      "gasValue": 0,
+      "humidity": 58.6,
+      "temperature": 31.5
+    },
+    "178080": {
+      "gasValue": 0,
+      "humidity": 68.1,
+      "temperature": 33.3
+    },
+    "179433": {
+      "gasValue": 0,
+      "humidity": 53.7,
+      "temperature": 32.2
+    },
+    "180458": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.7
+    },
+    "181592": {
+      "gasValue": 0,
+      "humidity": 55.2,
+      "temperature": 36
+    },
+    "181641": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "181761": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.2
+    },
+    "181786": {
+      "gasValue": 0,
+      "humidity": 64.6,
+      "temperature": 34
+    },
+    "181943": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.6
+    },
+    "181982": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 29.2
+    },
+    "182121": {
+      "gasValue": 0,
+      "humidity": 57.6,
+      "temperature": 32.3
+    },
+    "182126": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.4
+    },
+    "182464": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.5
+    },
+    "182634": {
+      "gasValue": 0,
+      "humidity": 49.3,
+      "temperature": 37.1
+    },
+    "182642": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "182819": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.2
+    },
+    "182825": {
+      "gasValue": 0,
+      "humidity": 58.4,
+      "temperature": 29.9
+    },
+    "183182": {
+      "gasValue": 0,
+      "humidity": 58.6,
+      "temperature": 31.4
+    },
+    "183300": {
+      "gasValue": 0,
+      "humidity": 67.8,
+      "temperature": 33.3
+    },
+    "184244": {
+      "gasValue": 0,
+      "humidity": 51.2,
+      "temperature": 32.6
+    },
+    "184976": {
+      "gasValue": 0,
+      "humidity": 53.7,
+      "temperature": 32.2
+    },
+    "185535": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 33.7
+    },
+    "186519": {
+      "gasValue": 0,
+      "humidity": 60.6,
+      "temperature": 29.2
+    },
+    "186705": {
+      "gasValue": 0,
+      "humidity": 64.1,
+      "temperature": 34.2
+    },
+    "186773": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.2
+    },
+    "186845": {
+      "gasValue": 0,
+      "humidity": 64.5,
+      "temperature": 34.1
+    },
+    "187060": {
+      "gasValue": 0,
+      "humidity": 55.4,
+      "temperature": 36
+    },
+    "187281": {
+      "gasValue": 0,
+      "humidity": 56.6,
+      "temperature": 32.3
+    },
+    "187298": {
+      "gasValue": 0,
+      "humidity": 63.1,
+      "temperature": 34.7
+    },
+    "187841": {
+      "gasValue": 0,
+      "humidity": 58.4,
+      "temperature": 30
+    },
+    "187956": {
+      "gasValue": 1127,
+      "humidity": 49.6,
+      "temperature": 37.1
+    },
+    "188171": {
+      "gasValue": 0,
+      "humidity": 58.9,
+      "temperature": 31.3
+    },
+    "188243": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.2
+    },
+    "188283": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 33.3
+    },
+    "188684": {
+      "gasValue": 0,
+      "humidity": 53.4,
+      "temperature": 32
+    },
+    "188877": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "189602": {
+      "gasValue": 0,
+      "humidity": 53.9,
+      "temperature": 32.2
+    },
+    "190848": {
+      "gasValue": 0,
+      "humidity": 50.9,
+      "temperature": 32.4
+    },
+    "191151": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 33.6
+    },
+    "192204": {
+      "gasValue": 0,
+      "humidity": 62,
+      "temperature": 32.4
+    },
+    "192229": {
+      "gasValue": 0,
+      "humidity": 64.5,
+      "temperature": 34
+    },
+    "192318": {
+      "gasValue": 0
+    },
+    "192346": {
+      "gasValue": 0,
+      "humidity": 55.3,
+      "temperature": 36
+    },
+    "192501": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "192702": {
+      "gasValue": 0,
+      "humidity": 48.9,
+      "temperature": 37.1
+    },
+    "192725": {
+      "gasValue": 0,
+      "humidity": 63.2,
+      "temperature": 34.6
+    },
+    "192733": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.4
+    },
+    "192755": {
+      "gasValue": 0,
+      "humidity": 56.3,
+      "temperature": 32.3
+    },
+    "192883": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.2
+    },
+    "192902": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "192984": {
+      "gasValue": 0,
+      "humidity": 60.5,
+      "temperature": 29.2
+    },
+    "193038": {
+      "gasValue": 0,
+      "humidity": 59,
+      "temperature": 31.2
+    },
+    "193264": {
+      "gasValue": 0,
+      "humidity": 58.6,
+      "temperature": 30
+    },
+    "193823": {
+      "gasValue": 0,
+      "humidity": 67.4,
+      "temperature": 33.3
+    },
+    "194657": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 32.2
+    },
+    "195636": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 33.7
+    },
+    "196844": {
+      "gasValue": 0,
+      "humidity": 55.3,
+      "temperature": 36
+    },
+    "196952": {
+      "gasValue": 0,
+      "humidity": 64.6,
+      "temperature": 34
+    },
+    "196978": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.2
+    },
+    "197089": {
+      "gasValue": 0,
+      "humidity": 63.3,
+      "temperature": 34.6
+    },
+    "197200": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 29.2
+    },
+    "197242": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "197498": {
+      "gasValue": 0,
+      "humidity": 56.2,
+      "temperature": 32.3
+    },
+    "197663": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.2
+    },
+    "197789": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "198043": {
+      "gasValue": 0,
+      "humidity": 58.6,
+      "temperature": 30
+    },
+    "198206": {
+      "gasValue": 0,
+      "humidity": 51.2,
+      "temperature": 32.3
+    },
+    "198427": {
+      "gasValue": 0,
+      "humidity": 59.1,
+      "temperature": 31.1
+    },
+    "198546": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.3
+    },
+    "199133": {
+      "gasValue": 0,
+      "humidity": 48.8,
+      "temperature": 37.1
+    },
+    "199696": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 32.3
+    },
+    "199826": {
+      "gasValue": 0,
+      "humidity": 51.3,
+      "temperature": 32.2
+    },
+    "201804": {
+      "gasValue": 0,
+      "humidity": 64.4,
+      "temperature": 34
+    },
+    "201888": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.6
+    },
+    "201913": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 29.2
+    },
+    "201979": {
+      "gasValue": 0,
+      "humidity": 54.9,
+      "temperature": 36
+    },
+    "202142": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "202197": {
+      "gasValue": 0,
+      "humidity": 63.2,
+      "temperature": 34.6
+    },
+    "202345": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "202637": {
+      "gasValue": 0,
+      "humidity": 65.4,
+      "temperature": 34.4
+    },
+    "202707": {
+      "gasValue": 0,
+      "humidity": 56.4,
+      "temperature": 32.4
+    },
+    "202803": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.2
+    },
+    "202965": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "203403": {
+      "gasValue": 0,
+      "humidity": 59,
+      "temperature": 30.1
+    },
+    "203460": {
+      "gasValue": 0,
+      "humidity": 59.2,
+      "temperature": 31.1
+    },
+    "203584": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.3
+    },
+    "204592": {
+      "gasValue": 0,
+      "humidity": 49,
+      "temperature": 37.1
+    },
+    "204910": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 32.2
+    },
+    "204962": {
+      "gasValue": 0,
+      "humidity": 51.7,
+      "temperature": 32.1
+    },
+    "205796": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 33.6
+    },
+    "206884": {
+      "gasValue": 157,
+      "humidity": 64.7,
+      "temperature": 34
+    },
+    "207101": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "207267": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 36
+    },
+    "207374": {
+      "gasValue": 0,
+      "humidity": 63.1,
+      "temperature": 34.7
+    },
+    "207424": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "207761": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.2
+    },
+    "207828": {
+      "gasValue": 0,
+      "humidity": 55.8,
+      "temperature": 32.3
+    },
+    "207836": {
+      "gasValue": 0,
+      "humidity": 60.5,
+      "temperature": 29.2
+    },
+    "208044": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "208354": {
+      "gasValue": 0,
+      "humidity": 59.7,
+      "temperature": 31
+    },
+    "208429": {
+      "gasValue": 0,
+      "humidity": 58.5,
+      "temperature": 30.1
+    },
+    "208642": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.3
+    },
+    "209737": {
+      "gasValue": 831,
+      "humidity": 65.1,
+      "temperature": 34.4
+    },
+    "209875": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 32.3
+    },
+    "210052": {
+      "gasValue": 0,
+      "humidity": 52,
+      "temperature": 32
+    },
+    "211016": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.6
+    },
+    "211918": {
+      "gasValue": 37,
+      "humidity": 64.8,
+      "temperature": 34
+    },
+    "212302": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "212347": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 36.1
+    },
+    "212393": {
+      "gasValue": 0,
+      "humidity": 62.9,
+      "temperature": 34.6
+    },
+    "212509": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 29.2
+    },
+    "212544": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "212992": {
+      "gasValue": 0,
+      "humidity": 56.2,
+      "temperature": 32.4
+    },
+    "213025": {
+      "gasValue": 0,
+      "humidity": 58.2,
+      "temperature": 30.1
+    },
+    "213115": {
+      "gasValue": 0,
+      "humidity": 53.4,
+      "temperature": 32
+    },
+    "213164": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.2
+    },
+    "213326": {
+      "gasValue": 0,
+      "humidity": 59.7,
+      "temperature": 30.9
+    },
+    "213680": {
+      "gasValue": 0,
+      "humidity": 66.9,
+      "temperature": 33.2
+    },
+    "214737": {
+      "gasValue": 202,
+      "humidity": 66.7,
+      "temperature": 34.4
+    },
+    "215003": {
+      "gasValue": 0,
+      "humidity": 53.8,
+      "temperature": 32.3
+    },
+    "216063": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 33.6
+    },
+    "217044": {
+      "gasValue": 0,
+      "humidity": 64.9,
+      "temperature": 34
+    },
+    "217298": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.2
+    },
+    "217302": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 36
+    },
+    "217404": {
+      "gasValue": 0,
+      "humidity": 62.8,
+      "temperature": 34.7
+    },
+    "217703": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "217957": {
+      "gasValue": 0,
+      "humidity": 56.2,
+      "temperature": 32.4
+    },
+    "218182": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 29.2
+    },
+    "218220": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.2
+    },
+    "218399": {
+      "gasValue": 0,
+      "humidity": 58.2,
+      "temperature": 30.1
+    },
+    "218411": {
+      "gasValue": 0,
+      "humidity": 53.3,
+      "temperature": 32
+    },
+    "218644": {
+      "gasValue": 0,
+      "temperature": 30.9
+    },
+    "218744": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.3
+    },
+    "219998": {
+      "gasValue": 0,
+      "humidity": 53.8,
+      "temperature": 32.3
+    },
+    "221140": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 33.6
+    },
+    "222239": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 29.2
+    },
+    "222253": {
+      "gasValue": 55,
+      "humidity": 65.2,
+      "temperature": 34
+    },
+    "222340": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "222342": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 36.1
+    },
+    "222865": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.4
+    },
+    "223099": {
+      "gasValue": 0,
+      "humidity": 56.4,
+      "temperature": 32.4
+    },
+    "223354": {
+      "gasValue": 0,
+      "humidity": 58,
+      "temperature": 30.2
+    },
+    "223365": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.3
+    },
+    "223512": {
+      "gasValue": 0,
+      "humidity": 53.3,
+      "temperature": 32
+    },
+    "223595": {
+      "gasValue": 0,
+      "humidity": 62.9,
+      "temperature": 34.6
+    },
+    "223789": {
+      "gasValue": 0,
+      "humidity": 66.9,
+      "temperature": 33.3
+    },
+    "225234": {
+      "gasValue": 0,
+      "humidity": 53.8,
+      "temperature": 32.3
+    },
+    "225472": {
+      "gasValue": 109,
+      "humidity": 65.8,
+      "temperature": 34.4
+    },
+    "226256": {
+      "gasValue": 0,
+      "humidity": 66.2,
+      "temperature": 33.5
+    },
+    "227275": {
+      "gasValue": 407,
+      "humidity": 68.3,
+      "temperature": 34
+    },
+    "227382": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 36.1
+    },
+    "227499": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "227710": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.4
+    },
+    "228227": {
+      "gasValue": 0,
+      "humidity": 56.5,
+      "temperature": 32.4
+    },
+    "228243": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.3
+    },
+    "228552": {
+      "gasValue": 0,
+      "humidity": 53.4,
+      "temperature": 32
+    },
+    "228596": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 30.2
+    },
+    "228836": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.3
+    },
+    "229143": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 29.2
+    },
+    "230159": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 32.3
+    },
+    "231396": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.5
+    },
+    "232292": {
+      "gasValue": 831,
+      "humidity": 71.2,
+      "temperature": 34.1
+    },
+    "232460": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "232615": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 36.1
+    },
+    "232631": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 29.2
+    },
+    "233265": {
+      "gasValue": 59,
+      "humidity": 62,
+      "temperature": 32.4
+    },
+    "233362": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.3
+    },
+    "233365": {
+      "gasValue": 0,
+      "humidity": 56.9,
+      "temperature": 32.5
+    },
+    "233425": {
+      "gasValue": 0,
+      "humidity": 58.1,
+      "temperature": 30.2
+    },
+    "233902": {
+      "gasValue": 0,
+      "humidity": 66.9,
+      "temperature": 33.3
+    },
+    "234083": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "235337": {
+      "gasValue": 0,
+      "humidity": 54.5,
+      "temperature": 32.3
+    },
+    "236337": {
+      "gasValue": 0,
+      "humidity": 67.5,
+      "temperature": 33.5
+    },
+    "236941": {
+      "gasValue": 7,
+      "humidity": 63.8,
+      "temperature": 34.5
+    },
+    "237510": {
+      "gasValue": 704,
+      "humidity": 69.7,
+      "temperature": 34.1
+    },
+    "237542": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 29.2
+    },
+    "237580": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "237707": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 36.1
+    },
+    "238075": {
+      "gasValue": 606,
+      "humidity": 62,
+      "temperature": 32.4
+    },
+    "238469": {
+      "gasValue": 0,
+      "humidity": 57.4,
+      "temperature": 32.4
+    },
+    "238610": {
+      "gasValue": 0,
+      "humidity": 58.5,
+      "temperature": 30.2
+    },
+    "238803": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.3
+    },
+    "238914": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.3
+    },
+    "239005": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32
+    },
+    "240396": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 32.4
+    },
+    "241391": {
+      "gasValue": 0,
+      "humidity": 67.4,
+      "temperature": 33.6
+    },
+    "242535": {
+      "gasValue": 1556,
+      "humidity": 69.9,
+      "temperature": 34.1
+    },
+    "242540": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "243023": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 36.1
+    },
+    "243063": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 29.2
+    },
+    "243204": {
+      "gasValue": 441,
+      "humidity": 62.4,
+      "temperature": 32.4
+    },
+    "243522": {
+      "gasValue": 0,
+      "humidity": 57.4,
+      "temperature": 32.4
+    },
+    "243626": {
+      "gasValue": 0,
+      "humidity": 58.9,
+      "temperature": 30.2
+    },
+    "243742": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.3
+    },
+    "243883": {
+      "gasValue": 0,
+      "humidity": 53.3,
+      "temperature": 32
+    },
+    "243983": {
+      "gasValue": 0,
+      "humidity": 67.4,
+      "temperature": 33.3
+    },
+    "245457": {
+      "gasValue": 0,
+      "humidity": 53.8,
+      "temperature": 32.3
+    },
+    "246421": {
+      "gasValue": 0,
+      "humidity": 67.4,
+      "temperature": 33.6
+    },
+    "247194": {
+      "gasValue": 0,
+      "humidity": 67.8,
+      "temperature": 34.7
+    },
+    "247564": {
+      "gasValue": 868,
+      "humidity": 72.1,
+      "temperature": 34.2
+    },
+    "247741": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "247766": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 36.1
+    },
+    "248006": {
+      "gasValue": 0,
+      "humidity": 59.9,
+      "temperature": 29.2
+    },
+    "248484": {
+      "gasValue": 1081,
+      "humidity": 62.2,
+      "temperature": 32.4
+    },
+    "248683": {
+      "gasValue": 0,
+      "humidity": 56.9,
+      "temperature": 32.5
+    },
+    "248785": {
+      "gasValue": 0,
+      "humidity": 59,
+      "temperature": 30.3
+    },
+    "248983": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.3
+    },
+    "249045": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.3
+    },
+    "249182": {
+      "gasValue": 0,
+      "humidity": 53.3,
+      "temperature": 32.1
+    },
+    "250660": {
+      "gasValue": 0,
+      "humidity": 53.9,
+      "temperature": 32.3
+    },
+    "251072": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.5
+    },
+    "251494": {
+      "gasValue": 0,
+      "humidity": 67.6,
+      "temperature": 34.7
+    },
+    "251505": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.6
+    },
+    "252535": {
+      "gasValue": 543,
+      "humidity": 71.7,
+      "temperature": 34.2
+    },
+    "252891": {
+      "gasValue": 0,
+      "humidity": 54.1,
+      "temperature": 36.1
+    },
+    "252901": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "253020": {
+      "gasValue": 0,
+      "humidity": 59.9,
+      "temperature": 29.2
+    },
+    "253345": {
+      "gasValue": 368,
+      "humidity": 62.3,
+      "temperature": 32.4
+    },
+    "253971": {
+      "gasValue": 0,
+      "humidity": 58.7,
+      "temperature": 30.3
+    },
+    "254032": {
+      "gasValue": 0,
+      "humidity": 53.3,
+      "temperature": 32
+    },
+    "254083": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 32.3
+    },
+    "254114": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.2
+    },
+    "255634": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 32.3
+    },
+    "256589": {
+      "gasValue": 0,
+      "humidity": 67,
+      "temperature": 33.6
+    },
+    "256614": {
+      "gasValue": 333,
+      "humidity": 68,
+      "temperature": 34.7
+    },
+    "257217": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.5
+    },
+    "257629": {
+      "gasValue": 124,
+      "humidity": 72.6,
+      "temperature": 34.2
+    },
+    "257965": {
+      "gasValue": 0,
+      "humidity": 54,
+      "temperature": 36.1
+    },
+    "257981": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "258006": {
+      "gasValue": 199,
+      "humidity": 62.1,
+      "temperature": 32.4
+    },
+    "258343": {
+      "gasValue": 27,
+      "humidity": 60.2,
+      "temperature": 29.2
+    },
+    "258945": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.3
+    },
+    "259097": {
+      "gasValue": 0,
+      "humidity": 58.3,
+      "temperature": 30.3
+    },
+    "259205": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.3
+    },
+    "259484": {
+      "gasValue": 0,
+      "humidity": 53,
+      "temperature": 32
+    },
+    "260715": {
+      "gasValue": 0,
+      "humidity": 55.4,
+      "temperature": 32.4
+    },
+    "261697": {
+      "gasValue": 549,
+      "humidity": 66.8,
+      "temperature": 33.6
+    },
+    "261735": {
+      "gasValue": 1249,
+      "humidity": 67.6,
+      "temperature": 34.8
+    },
+    "262725": {
+      "gasValue": 34,
+      "humidity": 68.3,
+      "temperature": 34.3
+    },
+    "262979": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "263036": {
+      "gasValue": 0,
+      "humidity": 54.2,
+      "temperature": 36.1
+    },
+    "263142": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 29.1
+    },
+    "263301": {
+      "gasValue": 104,
+      "humidity": 61.9,
+      "temperature": 32.5
+    },
+    "264168": {
+      "gasValue": 0,
+      "humidity": 61.3,
+      "temperature": 32.3
+    },
+    "264225": {
+      "gasValue": 0,
+      "humidity": 58.2,
+      "temperature": 30.3
+    },
+    "264294": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.2
+    },
+    "264803": {
+      "gasValue": 0,
+      "humidity": 52.9,
+      "temperature": 32.1
+    },
+    "266229": {
+      "gasValue": 738,
+      "humidity": 67.6,
+      "temperature": 34.7
+    },
+    "266759": {
+      "gasValue": 0,
+      "humidity": 66.6,
+      "temperature": 33.5
+    },
+    "267661": {
+      "gasValue": 0,
+      "humidity": 63.4,
+      "temperature": 34.5
+    },
+    "267799": {
+      "gasValue": 0,
+      "humidity": 55.7,
+      "temperature": 32.4
+    },
+    "267819": {
+      "gasValue": 42,
+      "humidity": 66.5,
+      "temperature": 34.3
+    },
+    "268020": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "268142": {
+      "gasValue": 0,
+      "humidity": 60.1,
+      "temperature": 29.2
+    },
+    "268494": {
+      "gasValue": 44,
+      "humidity": 61.8,
+      "temperature": 32.5
+    },
+    "269398": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.2
+    },
+    "269484": {
+      "gasValue": 0,
+      "humidity": 61.3,
+      "temperature": 32.4
+    },
+    "269488": {
+      "gasValue": 0,
+      "humidity": 52.8,
+      "temperature": 32.1
+    },
+    "269884": {
+      "gasValue": 0,
+      "humidity": 58.1,
+      "temperature": 30.4
+    },
+    "271268": {
+      "gasValue": 277,
+      "humidity": 67.6,
+      "temperature": 34.8
+    },
+    "271998": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.6
+    },
+    "273053": {
+      "gasValue": 64,
+      "humidity": 65.5,
+      "temperature": 34.3
+    },
+    "273220": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "273383": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 29.1
+    },
+    "273580": {
+      "gasValue": 14,
+      "humidity": 61.8,
+      "temperature": 32.5
+    },
+    "274323": {
+      "gasValue": 0,
+      "humidity": 61.3,
+      "temperature": 32.4
+    },
+    "274464": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.2
+    },
+    "274604": {
+      "gasValue": 0,
+      "humidity": 52.7,
+      "temperature": 32.1
+    },
+    "275523": {
+      "gasValue": 0,
+      "humidity": 58.2,
+      "temperature": 30.4
+    },
+    "276858": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.6
+    },
+    "276895": {
+      "gasValue": 208,
+      "humidity": 67.8,
+      "temperature": 34.7
+    },
+    "277395": {
+      "gasValue": 0,
+      "humidity": 54.2,
+      "temperature": 32.4
+    },
+    "278013": {
+      "gasValue": 0,
+      "humidity": 65,
+      "temperature": 34.3
+    },
+    "278187": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 29.1
+    },
+    "278380": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.2
+    },
+    "278957": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "279423": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 32.3
+    },
+    "279553": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.2
+    },
+    "279721": {
+      "gasValue": 0,
+      "humidity": 52.7,
+      "temperature": 32.1
+    },
+    "279978": {
+      "gasValue": 0,
+      "humidity": 63.3,
+      "temperature": 34.5
+    },
+    "281076": {
+      "gasValue": 0,
+      "humidity": 58.3,
+      "temperature": 30.4
+    },
+    "281600": {
+      "gasValue": 140,
+      "humidity": 67.8,
+      "temperature": 34.8
+    },
+    "282036": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.6
+    },
+    "282179": {
+      "gasValue": 0,
+      "humidity": 53.8,
+      "temperature": 32.4
+    },
+    "283093": {
+      "gasValue": 0,
+      "humidity": 64.7,
+      "temperature": 34.3
+    },
+    "283343": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 29.1
+    },
+    "283471": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "284524": {
+      "gasValue": 0,
+      "humidity": 61.3,
+      "temperature": 32.4
+    },
+    "284656": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.2
+    },
+    "284850": {
+      "gasValue": 0,
+      "humidity": 52.7,
+      "temperature": 32.1
+    },
+    "285241": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "285474": {
+      "gasValue": 0,
+      "humidity": 58,
+      "temperature": 30.4
+    },
+    "286720": {
+      "gasValue": 110,
+      "humidity": 67.4,
+      "temperature": 34.7
+    },
+    "287129": {
+      "gasValue": 0,
+      "humidity": 66.4,
+      "temperature": 33.7
+    },
+    "287369": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32.4
+    },
+    "288172": {
+      "gasValue": 0,
+      "humidity": 64.6,
+      "temperature": 34.3
+    },
+    "288595": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "288664": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 29.1
+    },
+    "289324": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "289804": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 32.4
+    },
+    "289965": {
+      "gasValue": 0,
+      "humidity": 52.6,
+      "temperature": 32.1
+    },
+    "289985": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 30.5
+    },
+    "290849": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.2
+    },
+    "292194": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.6
+    },
+    "292455": {
+      "gasValue": 99,
+      "humidity": 67.2,
+      "temperature": 34.8
+    },
+    "292556": {
+      "gasValue": 0,
+      "humidity": 53.1,
+      "temperature": 32.4
+    },
+    "293149": {
+      "gasValue": 0,
+      "humidity": 64.4,
+      "temperature": 34.3
+    },
+    "293521": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 29
+    },
+    "293741": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "294285": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 32.5
+    },
+    "294490": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.5
+    },
+    "294659": {
+      "gasValue": 0,
+      "humidity": 61.3,
+      "temperature": 32.4
+    },
+    "294905": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.2
+    },
+    "294984": {
+      "gasValue": 0,
+      "humidity": 57.5,
+      "temperature": 30.5
+    },
+    "295005": {
+      "gasValue": 0,
+      "humidity": 52.7,
+      "temperature": 32.2
+    },
+    "297324": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.7
+    },
+    "297478": {
+      "gasValue": 80,
+      "humidity": 67.2,
+      "temperature": 34.8
+    },
+    "298336": {
+      "gasValue": 0,
+      "humidity": 64.3,
+      "temperature": 34.3
+    },
+    "298503": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 29
+    },
+    "298860": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "298925": {
+      "gasValue": 0,
+      "humidity": 52.8,
+      "temperature": 32.4
+    },
+    "299188": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.6
+    },
+    "299804": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 32.4
+    },
+    "299827": {
+      "gasValue": 0,
+      "humidity": 57.8,
+      "temperature": 30.6
+    },
+    "300084": {
+      "gasValue": 0,
+      "humidity": 52.6,
+      "temperature": 32.2
+    },
+    "301422": {
+      "gasValue": 0,
+      "humidity": 64.6,
+      "temperature": 34.6
+    },
+    "302064": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.2
+    },
+    "302457": {
+      "gasValue": 0,
+      "humidity": 66.8,
+      "temperature": 33.7
+    },
+    "302674": {
+      "gasValue": 0,
+      "humidity": 52.7,
+      "temperature": 32.4
+    },
+    "303485": {
+      "gasValue": 0,
+      "humidity": 64.2,
+      "temperature": 34.3
+    },
+    "303744": {
+      "gasValue": 0,
+      "humidity": 60.1,
+      "temperature": 29
+    },
+    "304141": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "304341": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "305162": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.2
+    },
+    "305216": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 32.4
+    },
+    "305236": {
+      "gasValue": 0,
+      "humidity": 52.5,
+      "temperature": 32.2
+    },
+    "307488": {
+      "gasValue": 0,
+      "humidity": 66.7,
+      "temperature": 33.7
+    },
+    "307755": {
+      "gasValue": 0,
+      "humidity": 52.5,
+      "temperature": 32.4
+    },
+    "308686": {
+      "gasValue": 61,
+      "humidity": 64.2,
+      "temperature": 34.3
+    },
+    "308755": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 29
+    },
+    "309140": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "309261": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 32.5
+    },
+    "310084": {
+      "gasValue": 0,
+      "humidity": 52.4,
+      "temperature": 32.2
+    },
+    "310246": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.2
+    },
+    "310444": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 32.4
+    },
+    "312506": {
+      "gasValue": 0,
+      "humidity": 66.5,
+      "temperature": 33.7
+    },
+    "312915": {
+      "gasValue": 0,
+      "humidity": 52.7,
+      "temperature": 32.4
+    },
+    "313645": {
+      "gasValue": 66,
+      "humidity": 64.2,
+      "temperature": 34.4
+    },
+    "313943": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 29
+    },
+    "314383": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "314410": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.2
+    },
+    "315166": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 32.4
+    },
+    "315323": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.2
+    },
+    "315473": {
+      "gasValue": 0,
+      "humidity": 52.3,
+      "temperature": 32.2
+    },
+    "317622": {
+      "gasValue": 0,
+      "humidity": 66.3,
+      "temperature": 33.8
+    },
+    "318115": {
+      "gasValue": 0,
+      "humidity": 52.7,
+      "temperature": 32.5
+    },
+    "318713": {
+      "gasValue": 19,
+      "humidity": 64.1,
+      "temperature": 34.3
+    },
+    "319228": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 28.9
+    },
+    "319271": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "319861": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 32.5
+    },
+    "320168": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 32.3
+    },
+    "320205": {
+      "gasValue": 0,
+      "humidity": 52.6,
+      "temperature": 32.2
+    },
+    "320396": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.2
+    },
+    "322647": {
+      "gasValue": 204,
+      "humidity": 66.2,
+      "temperature": 33.7
+    },
+    "323035": {
+      "gasValue": 0,
+      "humidity": 53,
+      "temperature": 32.5
+    },
+    "323736": {
+      "gasValue": 58,
+      "humidity": 64.1,
+      "temperature": 34.3
+    },
+    "324141": {
+      "gasValue": 0,
+      "humidity": 60,
+      "temperature": 28.9
+    },
+    "324509": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "324703": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "325286": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 32.4
+    },
+    "325433": {
+      "gasValue": 0,
+      "humidity": 52.4,
+      "temperature": 32.2
+    },
+    "325490": {
+      "gasValue": 0,
+      "humidity": 67.1,
+      "temperature": 33.2
+    },
+    "327615": {
+      "gasValue": 12,
+      "humidity": 66,
+      "temperature": 33.8
+    },
+    "328083": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32.5
+    },
+    "328884": {
+      "gasValue": 31,
+      "humidity": 64.1,
+      "temperature": 34.3
+    },
+    "329420": {
+      "gasValue": 0,
+      "humidity": 63.7,
+      "temperature": 34.2
+    },
+    "329597": {
+      "gasValue": 0,
+      "humidity": 60,
+      "temperature": 28.9
+    },
+    "330326": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 32.4
+    },
+    "330528": {
+      "gasValue": 0,
+      "humidity": 53.2,
+      "temperature": 32.2
+    },
+    "330578": {
+      "gasValue": 0,
+      "humidity": 67.2,
+      "temperature": 33.2
+    },
+    "332245": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "332782": {
+      "gasValue": 3690,
+      "humidity": 65.7,
+      "temperature": 33.8
+    },
+    "333263": {
+      "gasValue": 0,
+      "humidity": 53.2,
+      "temperature": 32.5
+    },
+    "334006": {
+      "gasValue": 25,
+      "humidity": 64,
+      "temperature": 34.3
+    },
+    "334499": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.2
+    },
+    "334854": {
+      "gasValue": 0,
+      "humidity": 60,
+      "temperature": 28.9
+    },
+    "334872": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "335441": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 32.2
+    },
+    "335484": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 32.5
+    },
+    "335696": {
+      "gasValue": 0,
+      "humidity": 67.4,
+      "temperature": 33.2
+    },
+    "338140": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32.5
+    },
+    "339113": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.3
+    },
+    "339507": {
+      "gasValue": 0,
+      "humidity": 60,
+      "temperature": 28.9
+    },
+    "339619": {
+      "gasValue": 0,
+      "humidity": 63.4,
+      "temperature": 34.2
+    },
+    "340316": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "340582": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 32.4
+    },
+    "340646": {
+      "gasValue": 0,
+      "humidity": 54.6,
+      "temperature": 32.2
+    },
+    "340799": {
+      "gasValue": 0,
+      "humidity": 67.3,
+      "temperature": 33.2
+    },
+    "343234": {
+      "gasValue": 0,
+      "humidity": 53.2,
+      "temperature": 32.5
+    },
+    "344326": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.4
+    },
+    "344632": {
+      "gasValue": 0,
+      "humidity": 60.1,
+      "temperature": 28.9
+    },
+    "344911": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "344943": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "345685": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 32.4
+    },
+    "345729": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 32.2
+    },
+    "345912": {
+      "gasValue": 1502,
+      "humidity": 67.3,
+      "temperature": 33.2
+    },
+    "348219": {
+      "gasValue": 0,
+      "humidity": 52.8,
+      "temperature": 32.5
+    },
+    "349269": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.3
+    },
+    "349943": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.2
+    },
+    "350165": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "350263": {
+      "gasValue": 0,
+      "humidity": 60,
+      "temperature": 28.8
+    },
+    "351124": {
+      "gasValue": 0,
+      "humidity": 61.2,
+      "temperature": 32.5
+    },
+    "351286": {
+      "gasValue": 0,
+      "humidity": 54.7,
+      "temperature": 32.1
+    },
+    "353553": {
+      "gasValue": 0,
+      "humidity": 52.5,
+      "temperature": 32.5
+    },
+    "354445": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.4
+    },
+    "354979": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.2
+    },
+    "355264": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 28.8
+    },
+    "355423": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "355805": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 32.5
+    },
+    "356093": {
+      "gasValue": 0,
+      "humidity": 54.3,
+      "temperature": 32.1
+    },
+    "358498": {
+      "gasValue": 0,
+      "humidity": 53.2,
+      "temperature": 32.5
+    },
+    "359486": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.3
+    },
+    "360112": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 28.8
+    },
+    "360179": {
+      "gasValue": 0,
+      "humidity": 63.4,
+      "temperature": 34.2
+    },
+    "360295": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "361006": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 32.5
+    },
+    "361205": {
+      "gasValue": 0,
+      "humidity": 54.4,
+      "temperature": 32.1
+    },
+    "363555": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32.5
+    },
+    "364524": {
+      "gasValue": 0,
+      "humidity": 0,
+      "temperature": 0
+    },
+    "365219": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.2
+    },
+    "365463": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "365982": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 32.5
+    },
+    "366857": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 28.7
+    },
+    "368559": {
+      "gasValue": 0,
+      "humidity": 53.5,
+      "temperature": 32.6
+    },
+    "369708": {
+      "gasValue": 0,
+      "humidity": 64,
+      "temperature": 34.3
+    },
+    "370065": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "371183": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "371344": {
+      "gasValue": 2768,
+      "humidity": 67,
+      "temperature": 33.2
+    },
+    "371422": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 28.7
+    },
+    "372165": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 32.5
+    },
+    "372808": {
+      "gasValue": 80,
+      "humidity": 66,
+      "temperature": 33.8
+    },
+    "373324": {
+      "gasValue": 0,
+      "humidity": 67.5,
+      "temperature": 33.2
+    },
+    "374316": {
+      "gasValue": 0,
+      "humidity": 53.2,
+      "temperature": 32.6
+    },
+    "374495": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 34
+    },
+    "375244": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.3
+    },
+    "375423": {
+      "gasValue": 0,
+      "humidity": 60.6,
+      "temperature": 28.7
+    },
+    "375426": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.5
+    },
+    "375858": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "376327": {
+      "gasValue": 0,
+      "humidity": 61.1,
+      "temperature": 32.5
+    },
+    "377941": {
+      "gasValue": 0,
+      "humidity": 67.4,
+      "temperature": 33.3
+    },
+    "378833": {
+      "gasValue": 0,
+      "humidity": 53.2,
+      "temperature": 32.5
+    },
+    "379615": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 33.9
+    },
+    "380077": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.3
+    },
+    "380373": {
+      "gasValue": 0,
+      "humidity": 63.6,
+      "temperature": 34.2
+    },
+    "380463": {
+      "gasValue": 0,
+      "humidity": 60.7,
+      "temperature": 28.7
+    },
+    "380648": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "381246": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 32.5
+    },
+    "383111": {
+      "gasValue": 0,
+      "humidity": 67.5,
+      "temperature": 33.3
+    },
+    "383966": {
+      "gasValue": 0,
+      "humidity": 53,
+      "temperature": 32.6
+    },
+    "384676": {
+      "gasValue": 0,
+      "humidity": 65.6,
+      "temperature": 34
+    },
+    "385205": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.3
+    },
+    "385380": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.2
+    },
+    "385582": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "386344": {
+      "gasValue": 0,
+      "humidity": 61,
+      "temperature": 32.5
+    },
+    "388265": {
+      "gasValue": 0,
+      "humidity": 67.4,
+      "temperature": 33.3
+    },
+    "389154": {
+      "gasValue": 0,
+      "humidity": 52.4,
+      "temperature": 32.6
+    },
+    "389692": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 34
+    },
+    "390354": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.3
+    },
+    "390361": {
+      "gasValue": 0,
+      "humidity": 63.5,
+      "temperature": 34.2
+    },
+    "390902": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "391448": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 32.5
+    },
+    "394234": {
+      "gasValue": 0,
+      "humidity": 52.5,
+      "temperature": 32.6
+    },
+    "394770": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 34
+    },
+    "395897": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "396270": {
+      "gasValue": 0,
+      "humidity": 63.9,
+      "temperature": 34.3
+    },
+    "396771": {
+      "gasValue": 0,
+      "humidity": 60.9,
+      "temperature": 32.6
+    },
+    "399315": {
+      "gasValue": 0,
+      "humidity": 53.3,
+      "temperature": 32.6
+    },
+    "399856": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 34
+    },
+    "400554": {
+      "gasValue": 0,
+      "humidity": 63.8,
+      "temperature": 34.3
+    },
+    "401152": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "402176": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 32.6
+    },
+    "404537": {
+      "gasValue": 0,
+      "humidity": 53.1,
+      "temperature": 32.6
+    },
+    "404938": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 34
+    },
+    "406188": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.5
+    },
+    "407046": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 32.6
+    },
+    "409498": {
+      "gasValue": 0,
+      "humidity": 52.5,
+      "temperature": 32.6
+    },
+    "410054": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 34
+    },
+    "411326": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "411983": {
+      "gasValue": 0,
+      "humidity": 60.9,
+      "temperature": 32.6
+    },
+    "414634": {
+      "gasValue": 0,
+      "humidity": 52,
+      "temperature": 32.6
+    },
+    "415145": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 34.1
+    },
+    "416143": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "417328": {
+      "gasValue": 0,
+      "humidity": 60.9,
+      "temperature": 32.6
+    },
+    "419737": {
+      "gasValue": 0,
+      "humidity": 52,
+      "temperature": 32.6
+    },
+    "420223": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 34.1
+    },
+    "421566": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "422286": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 32.6
+    },
+    "425116": {
+      "gasValue": 0,
+      "humidity": 52.3,
+      "temperature": 32.6
+    },
+    "425291": {
+      "gasValue": 0,
+      "humidity": 65.3,
+      "temperature": 34.1
+    },
+    "426586": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "427246": {
+      "gasValue": 0,
+      "humidity": 60.7,
+      "temperature": 32.6
+    },
+    "429842": {
+      "gasValue": 0,
+      "humidity": 52.3,
+      "temperature": 32.6
+    },
+    "430397": {
+      "gasValue": 0,
+      "humidity": 65.4,
+      "temperature": 34.1
+    },
+    "431818": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "432291": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 32.6
+    },
+    "435034": {
+      "gasValue": 0,
+      "humidity": 51.9,
+      "temperature": 32.6
+    },
+    "435532": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 34.1
+    },
+    "436960": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "437648": {
+      "gasValue": 0,
+      "humidity": 60.6,
+      "temperature": 32.6
+    },
+    "439994": {
+      "gasValue": 0,
+      "humidity": 51.8,
+      "temperature": 32.6
+    },
+    "441996": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "442495": {
+      "gasValue": 0,
+      "humidity": 60.8,
+      "temperature": 32.6
+    },
+    "445112": {
+      "gasValue": 0,
+      "humidity": 51.7,
+      "temperature": 32.7
+    },
+    "447116": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.5
+    },
+    "447366": {
+      "gasValue": 0,
+      "humidity": 60.6,
+      "temperature": 32.6
+    },
+    "450155": {
+      "gasValue": 1236,
+      "humidity": 51.5,
+      "temperature": 32.7
+    },
+    "450801": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 34.1
+    },
+    "452184": {
+      "gasValue": 0,
+      "humidity": 61.9,
+      "temperature": 32.5
+    },
+    "452372": {
+      "gasValue": 0,
+      "humidity": 65,
+      "temperature": 34.1
+    },
+    "452486": {
+      "gasValue": 0,
+      "humidity": 60.7,
+      "temperature": 32.5
+    },
+    "454873": {
+      "gasValue": 0,
+      "humidity": 51.5,
+      "temperature": 32.6
+    },
+    "457230": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "457555": {
+      "gasValue": 0,
+      "humidity": 65.1,
+      "temperature": 34.1
+    },
+    "457765": {
+      "gasValue": 0,
+      "humidity": 60.6,
+      "temperature": 32.6
+    },
+    "462224": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "462723": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 34.1
+    },
+    "462726": {
+      "gasValue": 0,
+      "humidity": 60.7,
+      "temperature": 32.6
+    },
+    "463653": {
+      "gasValue": 0,
+      "humidity": 51.6,
+      "temperature": 32.7
+    },
+    "467305": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "467738": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 34.1
+    },
+    "467744": {
+      "gasValue": 0,
+      "humidity": 60.7,
+      "temperature": 32.6
+    },
+    "472503": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "472754": {
+      "gasValue": 0,
+      "humidity": 66.3,
+      "temperature": 34.1
+    },
+    "473061": {
+      "gasValue": 50,
+      "humidity": 61.5,
+      "temperature": 32.6
+    },
+    "477787": {
+      "gasValue": 0,
+      "humidity": 65.9,
+      "temperature": 34.1
+    },
+    "477954": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "478326": {
+      "gasValue": 731,
+      "humidity": 61.2,
+      "temperature": 32.6
+    },
+    "482818": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 34.1
+    },
+    "482865": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "483223": {
+      "gasValue": 414,
+      "humidity": 61.9,
+      "temperature": 32.6
+    },
+    "487856": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 34.1
+    },
+    "488192": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "488328": {
+      "gasValue": 930,
+      "humidity": 62.3,
+      "temperature": 32.6
+    },
+    "492877": {
+      "gasValue": 0,
+      "humidity": 66.2,
+      "temperature": 34.1
+    },
+    "493350": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "495742": {
+      "gasValue": 383,
+      "humidity": 63.4,
+      "temperature": 32.6
+    },
+    "497791": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "497916": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 34.1
+    },
+    "498566": {
+      "gasValue": 94,
+      "humidity": 62.2,
+      "temperature": 32.6
+    },
+    "502956": {
+      "gasValue": 0,
+      "humidity": 66.4,
+      "temperature": 34
+    },
+    "503146": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "504125": {
+      "gasValue": 0,
+      "humidity": 62.1,
+      "temperature": 32.6
+    },
+    "507987": {
+      "gasValue": 0,
+      "humidity": 65.7,
+      "temperature": 34
+    },
+    "508215": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "508887": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.6
+    },
+    "512996": {
+      "gasValue": 0,
+      "humidity": 65.6,
+      "temperature": 34.1
+    },
+    "513219": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "518048": {
+      "gasValue": 0,
+      "humidity": 65.6,
+      "temperature": 34
+    },
+    "518308": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "523069": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 34
+    },
+    "523207": {
+      "gasValue": 0,
+      "humidity": 60.9,
+      "temperature": 32.6
+    },
+    "523424": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "526450": {
+      "gasValue": 0,
+      "humidity": 60.6,
+      "temperature": 32.6
+    },
+    "528080": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 34
+    },
+    "528923": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "531689": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 32.6
+    },
+    "533277": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 34
+    },
+    "534574": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "537730": {
+      "gasValue": 0,
+      "humidity": 60.5,
+      "temperature": 32.7
+    },
+    "538292": {
+      "gasValue": 0,
+      "humidity": 66.1,
+      "temperature": 33.9
+    },
+    "539455": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "541326": {
+      "gasValue": 0,
+      "humidity": 60.5,
+      "temperature": 32.7
+    },
+    "543256": {
+      "gasValue": 0,
+      "humidity": 66,
+      "temperature": 34
+    },
+    "544591": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "546258": {
+      "gasValue": 0,
+      "humidity": 60.5,
+      "temperature": 32.7
+    },
+    "548435": {
+      "gasValue": 0,
+      "humidity": 66.2,
+      "temperature": 34
+    },
+    "550993": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.5
+    },
+    "552147": {
+      "gasValue": 0,
+      "humidity": 0,
+      "temperature": 0
+    },
+    "554254": {
+      "gasValue": 0,
+      "humidity": 66.1,
+      "temperature": 33.9
+    },
+    "558701": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 33.9
+    },
+    "559549": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "559734": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 32.7
+    },
+    "561903": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "562207": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.7
+    },
+    "563801": {
+      "gasValue": 0,
+      "humidity": 65.8,
+      "temperature": 33.9
+    },
+    "567301": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "567408": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 32.7
+    },
+    "572747": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "572928": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.7
+    },
+    "577730": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 32.7
+    },
+    "577743": {
+      "gasValue": 0,
+      "humidity": 61.8,
+      "temperature": 32.5
+    },
+    "581566": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "582528": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.7
+    },
+    "586663": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "588088": {
+      "gasValue": 0,
+      "humidity": 60.1,
+      "temperature": 32.7
+    },
+    "591636": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "594327": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.7
+    },
+    "596944": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.6
+    },
+    "601886": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "602088": {
+      "gasValue": 0,
+      "humidity": 0,
+      "temperature": 0
+    },
+    "604248": {
+      "gasValue": 0,
+      "humidity": 60.1,
+      "temperature": 32.8
+    },
+    "607303": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "609477": {
+      "gasValue": 0,
+      "humidity": 65.5,
+      "temperature": 33.9
+    },
+    "609729": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "611050": {
+      "gasValue": 0,
+      "humidity": 65.3,
+      "temperature": 33.9
+    },
+    "612496": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "614729": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 32.8
+    },
+    "615956": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 33.9
+    },
+    "617225": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "619447": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 32.8
+    },
+    "621105": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 33.9
+    },
+    "622446": {
+      "gasValue": 0,
+      "humidity": 61.7,
+      "temperature": 32.5
+    },
+    "624794": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "626212": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 33.8
+    },
+    "627864": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.6
+    },
+    "629729": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "631357": {
+      "gasValue": 0,
+      "humidity": 65.1,
+      "temperature": 33.8
+    },
+    "632424": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.6
+    },
+    "634831": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "636509": {
+      "gasValue": 0,
+      "humidity": 65.1,
+      "temperature": 33.8
+    },
+    "637906": {
+      "gasValue": 0,
+      "humidity": 61.6,
+      "temperature": 32.5
+    },
+    "639733": {
+      "gasValue": 0,
+      "humidity": 60,
+      "temperature": 32.9
+    },
+    "641638": {
+      "gasValue": 0,
+      "humidity": 65.1,
+      "temperature": 33.8
+    },
+    "642904": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "644746": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "646741": {
+      "gasValue": 0,
+      "humidity": 65.2,
+      "temperature": 33.8
+    },
+    "647784": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.6
+    },
+    "649853": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "651917": {
+      "gasValue": 0,
+      "humidity": 65.1,
+      "temperature": 33.8
+    },
+    "652817": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 32.6
+    },
+    "655016": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "657986": {
+      "gasValue": 0,
+      "humidity": 61.4,
+      "temperature": 32.6
+    },
+    "660135": {
+      "gasValue": 0,
+      "humidity": 60.1,
+      "temperature": 32.8
+    },
+    "663039": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.6
+    },
+    "665288": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "668144": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "670428": {
+      "gasValue": 0,
+      "humidity": 60,
+      "temperature": 32.8
+    },
+    "673267": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.6
+    },
+    "675411": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.9
+    },
+    "678228": {
+      "gasValue": 0,
+      "humidity": 61.5,
+      "temperature": 32.5
+    },
+    "680501": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "685694": {
+      "gasValue": 0,
+      "humidity": 60.2,
+      "temperature": 32.8
+    },
+    "691188": {
+      "gasValue": 0,
+      "humidity": 60.3,
+      "temperature": 32.8
+    },
+    "696386": {
+      "gasValue": 0,
+      "humidity": 60.5,
+      "temperature": 32.8
+    },
+    "701327": {
+      "gasValue": 303,
+      "humidity": 60.8,
+      "temperature": 32.8
+    },
+    "706408": {
+      "gasValue": 213,
+      "humidity": 60.7,
+      "temperature": 32.8
+    },
+    "711388": {
+      "gasValue": 421,
+      "humidity": 60.6,
+      "temperature": 32.9
+    },
+    "716086": {
+      "gasValue": 1119,
+      "humidity": 60.5,
+      "temperature": 32.8
+    },
+    "720803": {
+      "gasValue": 359,
+      "humidity": 60.4,
+      "temperature": 32.9
+    },
+    "725913": {
+      "gasValue": 167,
+      "humidity": 60.5,
+      "temperature": 32.9
+    },
+    "731423": {
+      "gasValue": 70,
+      "humidity": 60.3,
+      "temperature": 32.9
+    },
+    "736170": {
+      "gasValue": 17,
+      "humidity": 60.2,
+      "temperature": 32.9
+    },
+    "741261": {
+      "gasValue": 0,
+      "humidity": 60.1,
+      "temperature": 32.9
+    },
+    "746467": {
+      "gasValue": 0,
+      "humidity": 60.1,
+      "temperature": 32.9
+    },
+    "751549": {
+      "gasValue": 0,
+      "humidity": 60.4,
+      "temperature": 32.9
+    },
+    "-OlzYs82UTc-n0ohXjyD": {
+      "gasValue": 290.79999,
+      "humidity": 0,
+      "rateOfRise": 89.45634,
+      "temperature": 0
+    },
+    "-OlzYw6fGb86cfhvZ1dd": {
+      "gasValue": 129.39999,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZ-B2EMNSuT07CX7c": {
+      "gasValue": 129.60001,
+      "humidity": 0,
+      "rateOfRise": 44.48066,
+      "temperature": 0
+    },
+    "-OlzZ3Hq5s3P8wnT1DtQ": {
+      "gasValue": 240.60001,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZ7KsSxYS-9YwQHSy": {
+      "gasValue": 348.20001,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZBHc7BCiURP_QjCE": {
+      "gasValue": 62.4,
+      "humidity": 0,
+      "rateOfRise": 6.87807,
+      "temperature": 0
+    },
+    "-OlzZFEWFzGHWUxpB-i3": {
+      "gasValue": 44,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZJBLAf3T_O2qu79j": {
+      "gasValue": 44.4,
+      "humidity": 0,
+      "rateOfRise": 3.81544,
+      "temperature": 0
+    },
+    "-OlzZNHoJNzFm75odsDr": {
+      "gasValue": 607.20001,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZREeFI-dZO33qk3V": {
+      "gasValue": 252.2,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZVBeY5T56BXNptx4": {
+      "gasValue": 182,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZZKpLg-dmNWRBXo-": {
+      "gasValue": 149.39999,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZcPOvSL1Z6R-NRUJ": {
+      "gasValue": 130,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZg_wARq1sapsXFwp": {
+      "gasValue": 114.4,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZkL2bktri_mhK2uE": {
+      "gasValue": 102,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZo7rwVvQpm8ocNtB": {
+      "gasValue": 91.2,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZs1hIve39P-v-vns": {
+      "gasValue": 83,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZvzD2MMICs5FV_cr": {
+      "gasValue": 75.4,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzZzsipcjVbzFtQJDF": {
+      "gasValue": 73.2,
+      "humidity": 0,
+      "rateOfRise": 0.0894,
+      "temperature": 0
+    },
+    "-Olz_2jQ6H91Z7rsoxx1": {
+      "gasValue": 66.8,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Olz_6cf7OKR1XkH2yA6": {
+      "gasValue": 63.4,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Olz_AcvJuABceYGUog6": {
+      "gasValue": 824.59998,
+      "humidity": 0,
+      "rateOfRise": 77.08416,
+      "temperature": 0
+    },
+    "-Olz_F8Jk3Z0EjOFxilk": {
+      "gasValue": 357,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Olz_J5KJrNF4lW_ZvcD": {
+      "gasValue": 215.8,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Olz_N10njV-izw6zE4c": {
+      "gasValue": 172.2,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Olz_QzJt0sq-t7jP0gY": {
+      "gasValue": 142.60001,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzbXRjCAkMKi-WLB6R": {
+      "gasValue": 498.60001,
+      "humidity": 0,
+      "rateOfRise": 14.48889,
+      "temperature": 0
+    },
+    "-OlzbaLCInA8yOSfBNKv": {
+      "gasValue": 225.60001,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-OlzbeEG4y5MeHmwaFIs": {
+      "gasValue": 158,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Olzbi8E7Q9NKdgXb3AC": {
+      "gasValue": 1012.40002,
+      "humidity": 0,
+      "rateOfRise": 46.51578,
+      "temperature": 0
+    },
+    "-Olzbm1daV8l8DyjFqn-": {
+      "gasValue": 373,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Olzbq5Xe5zeT3dXu_g4": {
+      "gasValue": 713.20001,
+      "humidity": 0,
+      "rateOfRise": 10.27004,
+      "temperature": 0
+    },
+    "-Olzbu4o1zKNGshNPnSZ": {
+      "gasValue": 277.20001,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8t9GaD6iSlaVSr7DA": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8tD9I3aGNJgvKerTe": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8tH34UaEoNBYf4Hel": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8tKxVmWQ0bVK9VLpV": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8tOuHAoRYgiPJfVlu": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8tSnfkK63Vc_I6O7c": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8tWkei8WVulDUV9Cp": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8t_eBDT030I0M5DDV": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8td_DwqMlmew5zkG0": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8thVYGKu9ana7K2se": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8tlPMrafczuu2ZDqL": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8tpSTS3xKzo1syshs": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8ttMDFRJqUyrzHr41": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8txFj-RejfRrc-U53": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8u09Ivc5Up_mcpkjs": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8u42rTxmTpB8MRJG0": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8u7x_lH7T7DYPcMGx": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uBxwafeWpWvBG7_s": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uFs8Rq_m0wgntp5M": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uJjjDcoFwdQKgJe8": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uNuaMHrxiUNu7D-C": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uRnzdbrlrO_xc7xH": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uVuIIX2nuwkDmi9a": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uZsV70keto80JdSl": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8ucl5gYjDaEyNXT3t": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uge_gCtiOPb-NpQd": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8ukZAGkenacNlkGlE": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uoZpSSvXplblRJH6": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8usbTiBFdErvxTVvB": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8uwPNTzD1OaT91V-X": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8v-nytlJB4hCAmqdb": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8v3b4m8c-NxXRx1UW": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8v7ZA2HArK8H1oTla": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vBb0dr9BYU2z3Nk3": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vKhYFdLS7wk07p1y": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vObY3xzRRo9Fob4t": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vSua9BOOOjVT0BXi": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vWox4DmCap3Y4aI6": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8v_hhUyIXLSV-QJ24": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vdctMU8a6QyHjxUy": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vhbDHTf_XQ1EV7ZO": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vlZ5QLX0SvD_rLiC": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vpSpMIe0QxFjnKPE": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8vxl_HDavGVBAAM6T": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    },
+    "-Om8w0ksspDnw7WXw6q-": {
+      "gasValue": 0,
+      "humidity": 0,
+      "rateOfRise": 0,
+      "temperature": 0
+    }
+  },
+  "humidity": {
+    "value": 49
+  },
+  "lastUpdate": 203994,
+  "riskLevel": "DANGER",
+  "riskScore": 0,
+  "temperature": {
+    "value": 37.1
+  }
+}
