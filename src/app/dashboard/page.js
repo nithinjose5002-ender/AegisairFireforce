@@ -23,27 +23,32 @@ export default function Dashboard() {
   const riskLevelRef = useRef("SAFE");
   const dangerUsersRef = useRef([]);
 
-  const handleAcknowledge = () => {
-    ackRef.current = true;
+  const handleAcknowledgeUser = (userId) => {
     const now = new Date();
     const timestamp = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    if (dangerUsersRef.current.length > 0) {
+    const userToAck = dangerUsersRef.current.find(u => u.id === userId);
+    if (userToAck) {
       setAcknowledgedLog(prev => [
-        { users: dangerUsersRef.current, timestamp },
+        { users: [userToAck], timestamp },
         ...prev,
       ]);
     }
-    setGlobalRiskLevel("SAFE");
-    riskLevelRef.current = "SAFE";
-    setDangerUsers([]);
-    dangerUsersRef.current = [];
-    if (firestoreUnsubRef.current) {
-      firestoreUnsubRef.current();
-      firestoreUnsubRef.current = null;
-    }
-    if (dangerTimerRef.current) {
-      clearTimeout(dangerTimerRef.current);
-      dangerTimerRef.current = null;
+    const remaining = dangerUsersRef.current.filter(u => u.id !== userId);
+    dangerUsersRef.current = remaining;
+    setDangerUsers(remaining);
+
+    if (remaining.length === 0) {
+      ackRef.current = true;
+      setGlobalRiskLevel("SAFE");
+      riskLevelRef.current = "SAFE";
+      if (firestoreUnsubRef.current) {
+        firestoreUnsubRef.current();
+        firestoreUnsubRef.current = null;
+      }
+      if (dangerTimerRef.current) {
+        clearTimeout(dangerTimerRef.current);
+        dangerTimerRef.current = null;
+      }
     }
   };
 
@@ -174,9 +179,6 @@ export default function Dashboard() {
             </div>
           ) : !showDangerContent ? (
             <div className="text-center py-20 bg-gray-50 rounded-2xl border-2 border-dashed border-gray-200">
-                <p className="text-gray-400 font-medium italic">
-                    System Status: <span className="text-system-blue font-bold uppercase tracking-widest">{globalRiskLevel || 'STABLE'}</span>
-                </p>
                 <p className="text-gray-400 mt-2">No immediate danger incidents detected.</p>
             </div>
           ) : dangerUsers.length === 0 ? (
@@ -233,7 +235,7 @@ export default function Dashboard() {
 
                   <div className="mt-6 pt-4 border-t border-gray-100 flex justify-between items-center">
                     <button 
-                      onClick={handleAcknowledge}
+                      onClick={() => handleAcknowledgeUser(u.id)}
                       className="text-[10px] font-bold text-system-blue uppercase tracking-widest hover:underline"
                     >
                       Acknowledge

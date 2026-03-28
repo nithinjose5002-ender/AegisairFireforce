@@ -19,15 +19,6 @@ export default function TopBar() {
       </div>
 
       <div className="flex items-center gap-6">
-        <div className="flex items-center gap-3">
-            <div className="text-right">
-                <p className="text-sm font-semibold text-gray-800">{user?.displayName || "System Operator"}</p>
-                <p className="text-[10px] font-mono text-system-blue uppercase tracking-tighter">Status: Active</p>
-            </div>
-            <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center border border-gray-200">
-                <span className="text-xs font-bold text-gray-400">FF</span>
-            </div>
-        </div>
         
         <button 
             onClick={handleLogout}
