@@ -15,9 +15,6 @@ export default function TopBar() {
   return (
     <header className="h-16 bg-white border-b border-gray-100 flex items-center justify-between px-8 fixed top-0 left-0 right-0 z-50">
       <div className="flex items-center gap-3">
-        <div className="w-8 h-8 bg-system-blue rounded flex items-center justify-center">
-            <div className="w-4 h-4 bg-white rounded-full"></div>
-        </div>
         <h1 className="text-xl font-bold tracking-tight">AegisAir <span className="text-gray-400 font-normal">Dashboard</span></h1>
       </div>
 

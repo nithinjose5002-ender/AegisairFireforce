@@ -15,17 +15,28 @@ export default function Dashboard() {
   const [dangerUsers, setDangerUsers] = useState([]);
   const [globalRiskLevel, setGlobalRiskLevel] = useState("SAFE");
   const [isDataLoading, setIsDataLoading] = useState(true);
+  const [acknowledgedLog, setAcknowledgedLog] = useState([]);
   
   const firestoreUnsubRef = useRef(null);
   const dangerTimerRef = useRef(null);
   const ackRef = useRef(false);
   const riskLevelRef = useRef("SAFE");
+  const dangerUsersRef = useRef([]);
 
   const handleAcknowledge = () => {
     ackRef.current = true;
+    const now = new Date();
+    const timestamp = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    if (dangerUsersRef.current.length > 0) {
+      setAcknowledgedLog(prev => [
+        { users: dangerUsersRef.current, timestamp },
+        ...prev,
+      ]);
+    }
     setGlobalRiskLevel("SAFE");
     riskLevelRef.current = "SAFE";
     setDangerUsers([]);
+    dangerUsersRef.current = [];
     if (firestoreUnsubRef.current) {
       firestoreUnsubRef.current();
       firestoreUnsubRef.current = null;
@@ -82,6 +93,7 @@ export default function Dashboard() {
                       if (data.deviceId === "esp32-001") users.push({ id: doc.id, ...data });
                     });
                     setDangerUsers(users);
+                    dangerUsersRef.current = users;
                     setIsDataLoading(false);
                   }, (error) => {
                     console.error("Error fetching users:", error);
@@ -145,22 +157,12 @@ export default function Dashboard() {
 
           <div className="mb-8 flex justify-between items-end">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 tracking-tight">AegisAir FireForce branch</h2>
-              <p className="text-gray-500 mt-1">Intelligent responder dispatch & monitoring</p>
+              <h2 className="text-3xl font-bold text-gray-900 tracking-tight">AegisAir FireForce</h2>
+              <p className="text-gray-500 mt-1">Intelligent responder dispatch &amp; monitoring</p>
             </div>
-            <div className="flex flex-col items-end gap-2">
-              <div className="flex items-center gap-2 px-3 py-1 bg-red-50 text-emergency-red rounded-full text-xs font-bold uppercase tracking-wider border border-emergency-red/10 animate-pulse">
-                  <span className="w-1.5 h-1.5 bg-emergency-red rounded-full"></span>
-                  Live Feed
-              </div>
-              {showDangerContent && (
-                <button 
-                  onClick={handleAcknowledge}
-                  className="px-4 py-2 bg-system-blue text-white rounded-lg text-sm font-bold shadow-md hover:bg-blue-600 transition-colors"
-                >
-                  Acknowledge Incident
-                </button>
-              )}
+            <div className="flex items-center gap-2 px-3 py-1 bg-red-50 text-emergency-red rounded-full text-xs font-bold uppercase tracking-wider border border-emergency-red/10 animate-pulse">
+                <span className="w-1.5 h-1.5 bg-emergency-red rounded-full"></span>
+                Live Feed
             </div>
           </div>
 
@@ -230,7 +232,12 @@ export default function Dashboard() {
                   </div>
 
                   <div className="mt-6 pt-4 border-t border-gray-100 flex justify-between items-center">
-                    <button className="text-[10px] font-bold text-system-blue uppercase tracking-widest hover:underline">Dispatch Unit</button>
+                    <button 
+                      onClick={handleAcknowledge}
+                      className="text-[10px] font-bold text-system-blue uppercase tracking-widest hover:underline"
+                    >
+                      Acknowledge
+                    </button>
                     <span className="text-[10px] font-mono text-gray-400">ID: {u.id.substring(0, 8)}</span>
                   </div>
                 </div>
@@ -238,6 +245,31 @@ export default function Dashboard() {
             </div>
           )}
         </div>
+
+        {acknowledgedLog.length > 0 && (
+          <div className="mt-10">
+            <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-4">Recently Acknowledged — This Session</h3>
+            <div className="space-y-3">
+              {acknowledgedLog.map((entry, idx) => (
+                <div key={idx} className="bg-gray-50 border border-gray-200 rounded-xl px-5 py-4">
+                  <p className="text-[10px] font-mono text-gray-400 mb-2 uppercase tracking-widest">Acknowledged at {entry.timestamp}</p>
+                  <div className="flex flex-wrap gap-3">
+                    {entry.users.map((u) => (
+                      <div key={u.id} className="flex items-center gap-2 bg-white border border-gray-200 rounded-lg px-3 py-2 shadow-sm">
+                        <span className="w-2 h-2 rounded-full bg-green-400"></span>
+                        <div>
+                          <p className="text-sm font-semibold text-gray-800">{u.fullName}</p>
+                          <a href={`tel:${u.phone}`} className="text-[10px] text-system-blue hover:underline">{u.phone}</a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
       </main>
     </div>
   );
